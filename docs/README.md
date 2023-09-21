@@ -217,10 +217,13 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 
 *[Aqui, também devem estar registradas as dificuldades que a equipe teve durante a unidade, e como conseguiu (ou não superá-las).]*
 
-<a name="_page8_x72.00_y155.54"></a>**5 REFERÊNCIAS BIBLIOGRÁFICAS**
+<a name="_page8_x72.00_y155.54"></a>  
+
+**5 REFERÊNCIAS BIBLIOGRÁFICAS**
 
 *[Listar as referências utilizadas neste documento] 1 [Descrição da referência]*
 
 *.*
-*Página 9 de 9**
-[trfdfyuf](https://youtu.be/GkmLpQHu1Rk)
+*Página 9 de 9**  
+
+[Vídeo retrospectiva unidade 1](https://youtu.be/GkmLpQHu1Rk)
