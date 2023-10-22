@@ -54,7 +54,7 @@ Histórico de Revisão
 
 <a name="_page3_x72.00_y150.25"></a>*Atualmente no cenário de nutrição ainda temos dietas que são passadas por papel ou PDF, dificultando a praticidade de acompanhamento da dieta do usuário, além da necessidade de utilizar várias plataformas (como agenda, chat, diário, blog), por isso existe a necessidade da clínica de deter um sistema de acompanhamento que seja de fácil manuseio e tenha todas as funções que são usadas em aplicativos distintos, minimizando o desmembramento de recursos quanto ao gerenciamento da clínica.*
 
-![](Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.001.jpeg)
+![](imagens/Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.001.jpeg)
 
 ### 1.2 **Declaração<a name="_page3_x72.00_y481.99"></a> de Posição do Produto**
 
@@ -170,7 +170,7 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 
 - **Framework de Origem:***Scrum*
 
-![](Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.002.jpeg)
+![](imagens/Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.002.jpeg)
 
 
 
