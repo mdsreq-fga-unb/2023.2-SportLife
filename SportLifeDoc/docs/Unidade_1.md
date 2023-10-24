@@ -39,9 +39,6 @@ Histórico de Revisão
 [**4 LIÇÕES APRENDIDAS**](#_page7_x72.00_y436.50)
 
 1. [Unidade 1 ](#_page7_x72.00_y483.75)
-1. [Unidade 2 ](#_page7_x72.00_y563.84)
-1. [Unidade 3 ](#_page7_x72.00_y649.94)
-1. [Unidade 4 ](#_page8_x72.00_y72.00)
 
 [**5 REFERÊNCIAS BIBLIOGRÁFICAS**](#_page8_x72.00_y155.54)
 
@@ -192,17 +189,22 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 
 1. **Unidade<a name="_page7_x72.00_y483.75"></a> 1**
 
-*[Liste as lições aprendidas na retrospectiva, com ênfase especial nas ações a serem tomadas para melhorar, por exemplo: o ambiente de desenvolvimento, o processo ou a colaboração da equipe.]*
-
-*[Aqui, também devem estar registradas as dificuldades que a equipe teve durante a unidade, e como conseguiu (ou não superá-las).]*
-
+*Nessa unidade passamos por algumas dificuldades, em relação a organização e documentação do projeto, com isso entendemos que devemos usar de forma eficiente nossas 
+plataformas de organização, e usar nosso tempo livre para aprender as tecnologias que iremos usar em nosso projeto, assim consiguiremos apresentar um melhor trabalho
+nas próximas unidades.*
 
 <a name="_page8_x72.00_y155.54"></a>  
 
 ## **5 REFERÊNCIAS BIBLIOGRÁFICAS**
 
-*[Listar as referências utilizadas neste documento] 1 [Descrição da referência]*
+*Slides do Professor do módulo em questão*
+
+*YouTube - Canal Eduardo Mendes para documentação*
+
+*Chat GPT - Para algumas dúvidas no markdown*
 
 *.* 
+
+*Aqui está um breve vídeo para apresentar nosso projeto dessa unidade*
 
 [Vídeo retrospectiva unidade 1](https://youtu.be/GkmLpQHu1Rk)
