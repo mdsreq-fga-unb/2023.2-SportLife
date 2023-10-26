@@ -272,3 +272,9 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 |**23/10/2023**|**1.2**|**Rascunho da Arquitetura**|**Heloísa**|
 |**25/10/2023**|**1.3**|**Revisão dos Requisitos Funcionais e dos Critérios de Priorização**|**Caio Pacheco**|
 |**26/10/2023**|**1.4**|**Revisão dos Requisitos Não-funcionais e formatação**|**Caio Pacheco**|
+
+## Lições aprendidas
+
+2. **Unidade<a name="_page7_x72.00_y483.75"></a> 2**
+
+*Aprendemos nessa unidade a fazer de forma ideal as histórias de usuário e a definir uma arquitetura para o nosso projeto de software, além de finalmente aprendemos a fazer a documentação de um projeto de forma eficaz.*

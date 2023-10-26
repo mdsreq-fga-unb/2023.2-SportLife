@@ -49,7 +49,7 @@ Histórico de Revisão
 
 ### 1.1 **Problema**
 
-<a name="_page3_x72.00_y150.25"></a>*Atualmente no cenário de nutrição ainda temos dietas que são passadas por papel ou PDF, dificultando a praticidade de acompanhamento da dieta do usuário, além da necessidade de utilizar várias plataformas (como agenda, chat, diário, blog), por isso existe a necessidade da clínica de deter um sistema de acompanhamento que seja de fácil manuseio e tenha todas as funções que são usadas em aplicativos distintos, minimizando o desmembramento de recursos quanto ao gerenciamento da clínica.*
+<a name="_page3_x72.00_y150.25"></a>*Atualmente no cenário de nutrição ainda temos dietas que são passadas por papel ou PDF, dificultando a praticidade de acompanhamento da dieta do usuário, além da necessidade de utilizar várias plataformas (como agenda, chat, diário, blog), por isso existe a necessidade da clínica de deter um sistema de acompanhamento que seja de fácil manuseio e tenha todas as funções que são usadas em aplicativos distintos, minimizando o desmembramento de recursos quanto ao gerenciamento da clínica. Com isso o blog da nutricionista tem como objetivo ajudar os pais que não conhecem muito sobre nutrição infantil, e com as dicas dadas no mesmo o cliente pode ter uma ajuda sem precisar marcar uma consulta.*
 
 ![](imagens/Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.001.jpeg)
 
@@ -61,19 +61,20 @@ Histórico de Revisão
 
 |Para|Nutri Duni Tê|
 | - | - |
-|Quem|Nutri Duni Tê|
+|Quem|Letícia dona da clínica Nutri Duni Tê|
 |O (nome do produto)|Nutri Duni Tê|
-|Que|Gerencia o monitoramento da empresa enquanto mantém contato profissional|
+|Que|Facilita a cliente em ter todas as ferramentas em um só aplicativo  |
 |Ao contrário|Uso das alternativas genéricas disponibilizadas na internet|
 |Nosso produto|Facilita o gerenciamento da clínica por meio da junção de ferramentas que são de uso constante da nutricionista|
 
 ### 1.3 **Objetivos<a name="_page4_x72.00_y72.00"></a> do Produto**
 
-*Facilitar o controle de informações relevantes para a clínica prestar seus serviços aos clientes de forma mais simples e direta. Através de disponibilizar conteúdo sobre nutrição infantil e a formação de um cronograma.*
+*Criar um  aplicativo onde o cliente pode ter várias plataformas que hoje são utilizadas para fazer sua organização em uma só, com isso a cliente pode ter maior nível de organização pessoal e tornar a experiência dos clientes da clínica mais agradável, com o fim de fidelizar o mesmo.*
+
 
 ### 1.4 **Tecnologias<a name="_page4_x72.00_y134.60"></a> a Serem Utilizadas**
 
-Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo, Trello para gerenciamento e gestão do projeto, o discord para reunião entre os participantes do grupo e o zoom para reunião com a cliente.
+Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo, Trello para gerenciamento e gestão do projeto, o discord para reunião entre os participantes do grupo e o zoom para reunião com a cliente, para back-end usaremos python e Django Rest Framework, e para testes github action e dart.
 
 ## <a name="_page4_x72.00_y203.19"></a>**2 VISÃO GERAL DO PROJETO**
 
@@ -84,10 +85,10 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 |***Papel***|***Atribuições***|***Responsável***|***Participantes***|
 | - | - | - | - |
 |*Desenvolvedor Front-end*|*Codificar o produto, com foco na interface, e refatoração*|*João Lucas*|*Todos*|
-|*Desenvolvedor Front-end*|*Codificar o produto, com foco na interface, e refatoração*|*Heloísa*|*Todos*|
-|*Desenvolvedor Back-end*|*Codificar o produto, com foco na funcionalidade, testes unitários e refatoração*|*Gabriel Bertolazi*|*Todos*|
-|*Analista de Testes*|*Codificar o produto, executar testes de integração e de aceitação*|*Caio Pacheco*|*Todos*|
-|*Analista CI*|*Codificar o produto, garantir a integração contínua.*|*Emivalto*|*Todos*|
+|*Desenvolvedor Back-end*|*Codificar o produto com foco na funcionalidade*|*Heloísa*|*Todos*|
+|*Desenvolvedor Back-end*|*Codificar o produto, com foco na funcionalidade*|*Gabriel Bertolazi*|*Todos*|
+|*Dev CI/test*|*Executar testes unitários, executar testes de integração e de aceitação*|*Caio Pacheco*|*Todos*|
+|*Dev CI/test*|*Codificar o produto, garantir a integração contínua.*|*Emivalto*|*Todos*|
 |*Scrum Master*|*Gerenciar as práticas do SCRUM e se comunicar diretamente com a cliente*|*Vinícius*|*Vinícius*|
 |*Cliente*|*Auxiliar no reconhecimento de estórias de usuário*|*Leticia*|*Leticia*|
 
@@ -111,18 +112,31 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 |*- Acompanhamento das Atividades em Andamento*|*- Equipe do Projeto*|*- Semanal*|*- Ata de reunião*|
 |<p>*- Acompanhamento dos Riscos,*</p><p>*Compromissos, Ações Pendentes, Indicadores*</p>|*-Equipe do Projeto -Monitores*|*- Quinzenal*|*- Relatório de situação do projeto*|
 |*- Comunicar situação do projeto*|<p>- *Equipe do Projeto*</p><p>- *Professor*</p>|*- Semanal*|<p>- *Ata de reunião e*</p><p>- *Relatório de Situação do Projeto*</p>|
-### 2.4 **Gerenciamento<a name="_page5_x72.00_y295.79"></a> de Riscos**
-- *Identificar Riscos:*
-  - *Falta de engajamento dos estudantes*
-  - *Atrasos no cronograma o Problemas técnicos*
-- *Mitigar Riscos:*
-  - *Realização de pesquisas de engajamento*
-  - *Planejamento detalhado o Testes contínuos*
-- *Revisão de Riscos:*
-  - *A lista de riscos será revisada a cada sprint.*
-- *Registro de Riscos:*
 
-➢ *Os riscos serão registrados no Painel de Controle e no Plano do Projeto.*
+### 2.4 **Gerenciamento<a name="_page5_x72.00_y295.79"></a> de Riscos**
+
+*Gerenciamento de riscos*
+
+*Identificar riscos*
+
+O primeiro passo é identificar os possíveis riscos que podem afetar o projeto. Esses riscos podem ser internos, como falta de recursos ou atrasos no cronograma, ou externos, como mudanças nas regulamentações ou desastres naturais.
+
+No caso deste projeto, os seguintes riscos foram identificados:
+
+- *Atrasos no cronograma:* O projeto pode atrasar devido a imprevistos, como problemas técnicos ou mudanças de requisitos.
+- *Problemas técnicos:* O projeto pode ser afetado por problemas técnicos, como falhas no software ou no hardware.
+
+*Mitigação de riscos*
+
+Uma vez identificados os riscos, é necessário desenvolver ações para mitigá-los. Essas ações podem ser preventivas, como a realização de pesquisas de engajamento, ou corretivas, como a criação de planos de contingência.
+
+*Revisão de riscos*
+
+A lista de riscos deve ser revisada periodicamente para garantir que ainda seja válida. No caso deste projeto, a lista de riscos será revisada a cada sprint.
+
+*Registro de riscos*
+
+Todos os riscos identificados e mitigados devem ser registrados para que possam ser facilmente consultados. No caso deste projeto, os riscos serão registrados no Painel de Controle e no Plano do Projeto.
 
 ### 2.5 **Critérios<a name="_page5_x72.00_y473.37"></a> de Replanejamento**
 - *Atraso significativo nas entregas*
@@ -190,7 +204,7 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 1. **Unidade<a name="_page7_x72.00_y483.75"></a> 1**
 
 *Nessa unidade passamos por algumas dificuldades, em relação a organização e documentação do projeto, com isso entendemos que devemos usar de forma eficiente nossas 
-plataformas de organização, e usar nosso tempo livre para aprender as tecnologias que iremos usar em nosso projeto, assim consiguiremos apresentar um melhor trabalho
+plataformas de organização, e usar nosso tempo livre para aprender as tecnologias que iremos usar em nosso projeto, para assim consiguiremos apresentar um melhor trabalho
 nas próximas unidades.*
 
 <a name="_page8_x72.00_y155.54"></a>  
