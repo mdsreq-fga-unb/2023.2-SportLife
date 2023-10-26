@@ -4,85 +4,131 @@
 
 ## Requisitos Funcionais:
 
-- Gerar tela de início: requisito de uso tanto da nutricionistae seus funcionários quanto dos clientes, será o local aonde ficará as opções de uso do aplicativo;
-- Desenvolver Cadastro: será aonde os clientes e funcionários conseguirão crias suas contas;
-- Desenvolver Log In: será aonde os clientes e funcionários conseguirão fazer log in no aplicativo para ter acesso as funcionalidades
-- Desenvolver Recuperação de Senha: será aonde os clientes e funcionários conseguirão recuperar suas senhas
-- Desenvolver Agenda: será um requisito de uso apenas da nutricionista e de seus funcionários, para que eles consigam se organizar e ter controle sobre as suas consultas e clientes;
-- Desenvolver Próximas Consultas: será um local aonde os clientes poderão ter acesso a quando será sua próxima consulta;
-- Desenvolver Diário Alimentar: consiste em um local aonde os clientes farão postagens das refeições feitas por seus filhos para que a nutricionista tenha um controle maior do que está sendo ingerido pelas crianças;
-- Desenvolver Aba de conteúdos: será o local aonde a nutricionista poderá adicionar seus PDF’s sobre educação alimentar e os clientes poderão ter acesso para fazer uso deles, o que faz com que a nossa cliente não precise mais ficar enviando o mesmo arquivo para várias pessoas diferentes e também a busca pelos PDF’s por parte dos clientes da clínica;
-- Desenvolver Comunidade Nutri Duni Tê: uma forma de ter um contato mais fácil entre a nutricionista e seus clientes, aonde a nutricionista colocará as perguntas frequêntes enviadas à ela, pois já estarão lá para que novos clientes possam ver. Assim evitando perguntas frequentes no chat privado;
-- Desenvolver Chat Privado: aonde os clientes irão ter contato direto com a cliente para informar algo ou tirar uma dúvida
-- Desenvolver Notificações: instrumento de avisos aonde a nutricionista poderá lançar notificações para seus clientes, como por exemplo um aviso da importância de se tomar mais água em épocas de extremo calor ou até dicas de substituir alimentos por outros que tenham mais valor nutricional;
+- Cadastrar Usuário:
+- Autenticar Usuário:
+- Recuperar Senha:
+- Marcar Eventos:
+- Consultar Marcações:	
+- Documentar Hábitos Alimentares:
+- Diponibilizar Conteúdos:
+- Contatar Comunidade
+- Comunicar com Nutricionista:
+- Notificar Usuário:
+
 
 ## *Temas - Épicos - Histórias*
 
-### *Tema 1: Interface e Autenticação*
-1.1. Criar tela de início
+### *Tema 1: Autenticação e Identificação*
+1.1. Cadastrar Usuário
 
-- Eu, como funcionário, quero que tenha uma tela de início para os funcionários para que nós tenhamos acesso as funcionalidades do app em poucos cliques;
-- Eu, como cliente, quero que tenha uma tela de início para os clientes para que eles tenham acesso as funcionalidades do app em poucos cliques;
+- `US3:` Eu, como usuário, quero cadastrar uma nova conta de usuário para ter acesso ao sistema;
+- `US4:` Eu, como funcionário, quero cadastrar uma nova conta de funcionário para ter acesso ao sistema;
 
-1.2. Implementar Cadastro
+1.2. Autenticar Usuário
 
-- Eu, como cliente, quero ser capaz de ter uma área de cadastro de novos clientes para que eles possam ter sua própria conta no aplicativo;
-- Eu, como funcionário, quero ser capaz de ter uma área de cadastro de novos funcionários para que eles possam ter sua própria conta no aplicativo;
+- `US1:` Eu, como funcionário, quero me autenticar usando um login para ter acesso a todas as funcionalidades disponíveis aos funcionários;
+- `US2:` Eu, como usuário, quero me autenticar usando um login para ter acesso a todas as funcionalidades disponíveis aos usuários;
 
-1.3. Desenvolver Login
+1.3. Recuperar Senha
 
-- Eu, como cliente, quero ser capaz de ter uma área de log in de clientes para que eles possam entrar com sua conta no aplicativo;
-- Eu, como funcionário, quero ser capaz de ter uma área de log in de funcionários para que eles possam entrar com sua conta no aplicativo;
-
-1.4. Implementar Recuperação de Senha
-
-- Eu, como consumidor, quero ser capaz de ter uma área de recuperação de senha para que todos que utilizam o app possam recuperar a senha caso aconteça de esquecerem a senha;
+- `US5:` Eu, como usuário geral, quero ser capaz de escolher uma nova senha para garantir que meu acesso ao sistema não será perdido;
 
 ### *Tema 2: Recursos de Gerenciamento de Informações*
-2.1. Desenvolver Agenda
+2.1. Marcar Eventos
 
-- Eu, como funcionário, quero ter acesso a uma aba de agenda para que eu possa me organizar quanto as consultas e reuniões da clinica;
+- `US6:` Eu, como funcionário, quero ver e marcar consultas ou reuniões futuras para me preparar de acordo;
+- `US8:` Eu, como funcionário, quero poder desmarcar e/ou alterar dados de consultas para maximizar eficiência da clínica;
 
-2.2. Criar Próximas Consultas
+2.2. Consultar Marcações
 
-- Eu, como cliente, quero ter acesso a uma aba de próximas consultas para que eu possa ficar ciente de quando retornar;
+- `US7:` Eu, como usuário, quero poder me informar sobre datas de consultas marcadas para evitar cancelamentos e inconveniências;
     
-    
+2.3. Documentar Hábitos Alimentares
 
-2.3. Criar Diário Alimentar
+- `US9:` Eu, como funcionário, quero dar feedback de forma consistente sobre os hábitos alimentares de pacientes individuais;
+- `US10:` Eu, como usuário, quero registrar meus hábitos alimentares para ajudar em decisões sobre meu tratamento;
+- `US11:` Eu, como funcionário, quero me informar sobre os hábitos alimentares diários de pacientes afim de personalizar e ajustar os tratamentos;
 
-- Eu, como funcionário, quero ter acesso a um diário alimentar em que meus clientes possam estar divulgando para mim as refeições feitas pelos seus filhos durante o dia a dia;
-- Eu, como funcionário, quero ter a capacidade de responder às publicações feitas no diário alimentar pelos meus clientes para um melhor controle do que seus filhos estão comendo;
+2.4. Disponibilizar Conteúdos
 
-2.4. Desenvolver Aba de Conteúdos
-
-- Eu, como funcionário, quero ter controle sobre uma aba de conteúdos aonde poderei postar PDFs sobre educação alimentar para uso dos meus clientes;
+- `US12:` Eu, como funcionário, quero distribuir conteúdos educativos de forma rápida para múltiplos pacientes, afim de evitar mandar os conteúdos individualmente;
 
 ### *Tema 3: Comunicação*
-3.1. Desenvolver Comunidade Nutri Duni Tê
+3.1. Contatar Comunidade
 
-- Eu, como funcionário, quero ser capaz de adicionar perguntas frequêntes em um mural de dúvidas para evitar mensagens repetitivas no chat privado;
+- `US15:` Eu, como usuário, quero poder interagir com outros usuários em situações similares para compartilhar experiências e me conectar;
 
-3.2. Desenvolver Chat Privado
+3.2. Comunicar com Nutricionista
 
-- Eu, como funcionário, eu quero ser capaz de ter um chat privado com meus clientes para que eles tenham mais privacidade para solucionar as dúvidas deles;
+- `US13:` Eu, como funcionário, quero me comunicar de forma privada com pacientes afim de manter a confidencialidade médica;
 
-3.3. Configurar Notificações
+3.3. Notificar Usuário
 
-- Eu, como funcionário, quero ser capaz de enviar uma notificação automática para passar informações e dicas para o dia a dia das crianças dos meus clientes;
-- Eu, como cliente, quero receber notificações com informações adicionais para educação alimentar dos meus filhos.
+- `US14:` Eu, como funcionário, quero ser capaz de notificar pacientes com informações e dicas ao longo do dia afim de reforçar e facilitar o tratamento;
 
-### Justificativa das prioridades
+## Críterio de Priorização das Histórias de Usuário
+ As histórias de usuário (**US**) serão priorizadas levando em conta 3 atributos:
 
-Decidimos utilizar essa seleção de prioridades nos requisitos funcionais devido à nossa concepção sobre o funcionamento da interface do nosso produto.
+- **`C` - Complexidade:** _nível de trabalho necessário para desenvolver a US_
+- **`V` - Valor de Negócio:** _o valor que a US agrega no produto_
+- **`D` - Dependência:** _o quão dependente a US é em histórias pré-requisitas_
 
-Inicialmente, concentraremos nossos esforços na criação da tela de Login. Portanto, daremos prioridade ao desenvolvimento do tema Interface e Autenticação. Isso abrangerá tanto o registro quanto o login, tanto para o usuário quanto para o cliente, permitindo-nos, em seguida, avançar para a área de utilização do software.
+As US serão analisadas, então os atributos `C` e `V`  serão classificados com uma nota entre 0 e 10, e o atributo `D` classificado entre 0 e 5. Esses valores serão passados para um função que determina o score final `S` da US: `S = (10*V-5*C)/(10+2*D)`
 
-Posteriormente, avançaremos para o desenvolvimento do tema Recursos de Gerenciamento de Informações. Esta priorização se deve ao fato de ser a funcionalidade principal solicitada pela cliente. Essa seção será o ponto focal para ela e sua equipe, permitindo o gerenciamento e a organização eficaz da clínica com as ferramentas disponíveis nela.
+![Image](https://github.com/mdsreq-fga-unb/2023.2-SportLife/assets/90219652/5620b86c-1156-4e79-b45a-c761f6fe72d8)
 
-Por último, abordaremos o desenvolvimento do tema Comunicação. Embora a nutricionista tenha solicitado essa funcionalidade, ela foi classificada pela cliente como menos prioritária do que os Recursos de Gerenciamento, tornando-a passível de ser entregue com menos urgência.
+Essa fórmula quantifica custo benefício de desenvolvimento de cada US. O valor de negócio é a base nota, sendo penalizada negativamente por complexidade e escalada negativamente por dependência. Histórias serão desenvolvidas por ordem decrescente de score. Dessa forma, histórias com maior valor, baixa complexidade e baixa dependência são desenvolvidas primeiro.
 
-Essa estratégia de priorização de requisitos reflete o compromisso da equipe SportLife em desenvolver o aplicativo de acordo com as necessidades específicas da clínica de nutrição infantil Nutri Duni Tê.
+
+
+|       | **Complexidade**  `C`| **Valor de negócio**  `V`| **Dependencia**  `D`| **Score**  `S`|
+|---------|:----------------:|:--------------------:|:---------------:|:-----------:|
+| **US 1**  | 3                | 8                    | 1               | 5.41 |
+| **US 2**  | 3                | 8                    | 1               | 5.41 |
+| **US 3**  | 2                | 7                    | 0               | 6.0   |
+| **US 4**  | 2                | 7                    | 0               | 6.0   |
+| **US 5**  | 7                | 9                    | 1               | 4.58 |
+| **US 6**  | 5                | 10                   | 2               | 5.35 |
+| **US 7**  | 5                | 9                    | 2               | 4.64 |
+| **US 8**  | 6                | 9                    | 2               | 4.28 |
+| **US 9**  | 4                | 7                    | 2               | 3.57 |
+| **US 10** | 5                | 5                    | 2               | 1.78 |
+| **US 11** | 3                | 6                    | 2               | 3.21 |
+| **US 12** | 4                | 7                    | 1               | 4.16 |
+| **US 13** | 6                | 9                    | 1               | 5.0   |
+| **US 14** | 4                | 6                    | 1               | 3.33 |
+| **US 15** | 4                | 7                    | 1               | 4.16 |
+
+
+## MVP 1
+
+Para a escolha de US que serão desenvolvidas no MVP 1, escolhemos as 8 histórias com os maiores scores, sendo elas:
+
+
+|       | **Complexidade**  `C`| **Valor de negócio**  `V`| **Dependencia**  `D`| **Score**  `S`|
+|---------|:----------------:|:--------------------:|:---------------:|:-----------:|
+| **US 3**  | 2                | 7                    | 0               | 6.0   |
+| **US 4**  | 2                | 7                    | 0               | 6.0   |
+| **US 1**  | 3                | 8                    | 1               | 5.41 |
+| **US 2**  | 3                | 8                    | 1               | 5.41 |
+| **US 6**  | 5                | 10                   | 2               | 5.35 |
+| **US 13** | 6                | 9                    | 1               | 5.0   |
+| **US 7**  | 5                | 9                    | 2               | 4.64 |
+| **US 5**  | 7                | 9                    | 1               | 4.58 |
+
+## MVP 2
+
+Para as US que serão desenvolvidas no MVP 2, serão todas que não estão (ou não foram completadas) no MVP 1, sendo elas:
+
+|       | **Complexidade**  `C`| **Valor de negócio**  `V`| **Dependencia**  `D`| **Score**  `S`|
+|---------|:----------------:|:--------------------:|:---------------:|:-----------:|
+| **US 8**  | 6                | 9                    | 2               | 4.28 |
+| **US 12** | 4                | 7                    | 1               | 4.16 |
+| **US 15** | 4                | 7                    | 1               | 4.16 |
+| **US 9**  | 4                | 7                    | 2               | 3.57 |
+| **US 14** | 4                | 6                    | 1               | 3.33 |
+| **US 11** | 3                | 6                    | 2               | 3.21 |
+| **US 10** | 5                | 5                    | 2               | 1.78 |
 
 ## Requisitos Não-Funcionais
 
@@ -146,70 +192,9 @@ Essa estratégia de priorização de requisitos reflete o compromisso da equipe 
 - A funcionalidade foi testada em vários cenários para garantir que esteja livre de defeitos.
 - O código foi revisado por todos os membros da equipe para garantir a qualidade e a consistência.
 - A documentação foi atualizada e está disponível para referência futura.
-- A funcionalidade foi demonstrada ao PO para obter sua aprovação.
 
-## MVP1
 
-Assim ficou decididas as histórias a serem feitas no MVP1:
 
-### Criar tela de início
-
-- Eu, como funcionário, quero que tenha uma tela de início para os funcionários para que nós tenhamos acesso as funcionalidades do app em poucos cliques;
-- Eu, como cliente, quero que tenha uma tela de início para os clientes para que eles tenham acesso as funcionalidades do app em poucos cliques;
-
-### Implementar Cadastro
-
-- Eu, como cliente, quero ser capaz de ter uma área de cadastro de novos clientes para que eles possam ter sua própria conta no aplicativo;
-- Eu, como funcionário, quero ser capaz de ter uma área de cadastro de novos funcionários para que eles possam ter sua própria conta no aplicativo;
-
-### Desenvolver Login
-
-- Eu, como cliente, quero ser capaz de ter uma área de log in de clientes para que eles possam entrar com sua conta no aplicativo;
-- Eu, como funcionário, quero ser capaz de ter uma área de log in de funcionários para que eles possam entrar com sua conta no aplicativo;
-
-### Implementar Recuperação de Senha
-
-- Eu, como consumidor, quero ser capaz de ter uma área de recuperação de senha para que todos que utilizam o app possam recuperar a senha caso aconteça de esquecerem a senha;
-
-### Desenvolver Agenda
-
-- Eu, como funcionário, quero ter acesso a uma aba de agenda para que eu possa me organizar quanto as consultas e reuniões da clinica;
-
-### Criar Próximas Consultas
-
-- Eu, como cliente, quero ter acesso a uma aba de próximas consultas para que eu possa ficar ciente de quando retornar;
-
-Neste MVP, nós iremos nos concentrar nos elementos essenciais para criar uma base funcional do aplicativo. Por isso decidimos fazer a parte da autenticação e dar início aos recursos de gerenciamento, focando assim nas funcionalidades que a nossa clienta mais enfatizou ser necessário para ela. 
-
-## MVP2
-
-Já as histórias do MVP2 ficaram decididas da seguinte maneira:
-
-### Criar Diário Alimentar
-
-- Eu, como funcionário, quero ter acesso a um diário alimentar em que meus clientes possam estar divulgando para mim as refeições feitas pelos seus filhos durante o dia a dia;
-- Eu, como funcionário, quero ter a capacidade de responder às publicações feitas no diário alimentar pelos meus clientes para um melhor controle do que seus filhos estão comendo;
-
-### Desenvolver Aba de Conteúdos
-
-- Eu, como funcionário, quero ter controle sobre uma aba de conteúdos aonde poderei postar PDFs sobre educação alimentar para uso dos meus clientes;
-
-### Desenvolver Comunidade Nutri Duni Tê
-
-- Eu, como funcionário, quero ser capaz de adicionar perguntas frequêntes em um mural de dúvidas para evitar mensagens repetitivas no chat privado;
-
-### Desenvolver Chat Privado
-
-- Eu, como funcionário, eu quero ser capaz de ter um chat privado com meus clientes para que eles tenham mais privacidade para solucionar as dúvidas deles;
-
-### Configurar Notificações
-
-- Eu, como funcionário, quero ser capaz de enviar uma notificação automática para passar informações e dicas para o dia a dia das crianças dos meus clientes;
-- Eu, como cliente, quero receber notificações com informações adicionais para educação alimentar dos meus filhos.
-
-Focando assim nas ferramentas que são mais direcionadas para recursos de gerenciamento de informações menos prioritários, comunicação e notificações, que também nos foi pedido mas que foi deixado claro serem pontos de menos urgência.
-
-Dessa maneira nos conseguiremos de forma organizada realizar todo o desenvolvimento da interface de autenticação, partir para as ferramentas mais importantes de gerenciamento, realizar o desenvolvimento da parte de comunicação assim e finalizar o produto de software.
 
 ## Arquitetura do Software
 
@@ -222,35 +207,50 @@ Já o estilo arquitetural escolhido foi o  MVC (Model-View-Controller), que é o
 
 ### Princípios de UI
 
-- Aprendizagem: –  interface sujestiva, aonde para entrar em qualquer uma das funcionalidades que estarão disponíveis já na tela de início bastará um único clique, além de que dentro de cada uma delas também com no máximo 5 cliques o usuário conseguirá realizar a ação desejada, sendo:
-    - Agenda: necessário 5 cliques para adicionar um novo evento ou 4 cliques para apagar um evento;
-    - Próximas consultas: necessário somente o clique de entrada;
-    - Diário alimentar: 5 cliques para adicionar algo novo, caso cliente, e 3 para apagar, ou 2 cliques para a nutricionista responder o post;
-    - Aba de conteúdos: somente 1 clique para o cliente escolher o pdf, caso cliente, 5 para a nutricionista adicionar um novo conteúdo e 4 para apagar;
-    - Comunidade Nutri Duni Tê: apenas 2 cliques para os clientes e para a nutricionista 3 cliques para adicionar algo novo;
-    - Chat Direto: somente dois cliques para ambos os usuários;
-    - Notificações: 4 cliques para a nutricionista enviar uma nova notificação;
+- **Aprendizagem:**  interface sujestiva, aonde para entrar em qualquer uma das funcionalidades que estarão disponíveis já na tela de início bastará um único clique, além de que dentro de cada uma delas também com no máximo 5 cliques o usuário conseguirá realizar a ação desejada, sendo:
+    - *Agenda:* necessário 5 cliques para adicionar um novo evento ou 4 cliques para apagar um evento;
+    - *Próximas consultas:* necessário somente o clique de entrada;
+    - *Diário alimentar:* 5 cliques para adicionar algo novo, caso cliente, e 3 para apagar, ou 2 cliques para a nutricionista responder o post;
+    - *Aba de conteúdos:* somente 1 clique para o cliente escolher o pdf, caso cliente, 5 para a nutricionista adicionar um novo conteúdo e 4 para apagar;
+    - *Comunidade Nutri Duni Tê:* apenas 2 cliques para os clientes e para a nutricionista 3 cliques para adicionar algo novo;
+    - *Chat Direto:* somente dois cliques para ambos os usuários;
+    - *Notificações:* 4 cliques para a nutricionista enviar uma nova notificação;
 
-- Familiaridade do usuário: Uso terminologia familiar, utilizar palavras e expressões que se encaixem naturalmente no vocabulário comum das pessoas;
+- **Familiaridade do usuário:** Uso terminologia familiar, utilizar palavras e expressões que se encaixem naturalmente no vocabulário comum das pessoas;
 
-- Consistência: *Comportamento preditível, para que os usuários prevejam o que acontecerá quando realizarem uma ação, **consistência visual, elementos de design de maneira uniforme em toda a interface, **consistência de navegação, o padrão no menu e nos botões de redirecionamento, **feedback do sistema*, mensagens de feedback: confirmações, erros ou mensagens de sucesso;
+- **Consistência:** comportamento preditível, para que os usuários prevejam o que acontecerá quando realizarem uma ação. 
+  - *Consistência visual:* elementos de design de maneira uniforme em toda a interface;
+  - *Consistência de navegação:* o padrão no menu e nos botões de redirecionamento;
+  - *Feedback do sistema:* mensagens de feedback, confirmações, erros ou mensagens de sucesso;
 
-- Surpresa mínima: consistência, de forma com que as operações e ações se comportam de maneira consistente e desing intuitivo com os elementos e funcionalidades dispostos de forma lógica e coerente;
-- Recuperabilidade – caso o usuário precise voltar para uma página que estava preenchida, ele não irá perder os dados informados, pois eles estarão lá recuperados;
+- **Surpresa mínima:** consistência, de forma com que as operações e ações se comportam de maneira consistente e desing intuitivo com os elementos e funcionalidades dispostos de forma lógica e coerente;
+- **Recuperabilidade:** caso o usuário precise voltar para uma página que estava preenchida, ele não irá perder os dados informados, pois eles estarão lá recuperados;
 
-- Orientação do usuário: uso de mensagens para orientar o usuário caso ocorra algum erro, alguma ação tenha sido realizada com sucesso ou caso esteja faltando completar algum campo obrigatório;
+- **Orientação do usuário:** uso de mensagens para orientar o usuário caso ocorra algum erro, alguma ação tenha sido realizada com sucesso ou caso esteja faltando completar algum campo obrigatório;
 
-- Diversidade de usuários:
-    - uso de ferramentas de verificação de contrastepara garantir o destaque do texto e dos elementos da interface no plano de fundo, para os usuários que possuem daltonismo;
+- **Diversidade de usuários:**
+    - Uso de ferramentas de verificação de contraste, para garantir o destaque do texto e dos elementos da interface no plano de fundo, para os usuários que possuem daltonismo;
     - Legibilidade de texto, de forma que o tamanho e a fonte do texto sejam legíveis e que haja um bom contraste entre o texto e o fundo, para os usuários com baixa visão;
     - Navegação Simples, sendo necessário no máximo 5 cliques para realizar alguma ação, ajudando assim usuários que utilizem de leitores de tela;
 
 ## Modalidades de Interação
 
-- Resposta da questão: caso o cliente tenha dúvida sobre o dia de sua consulta, o software lhe responde por meio da aba “Próximas Consultas”;
+- **Resposta da questão:** caso o cliente tenha dúvida sobre o dia de sua consulta, o software lhe responde por meio da aba “Próximas Consultas”;
 
-- Manipulação direta: os funcioários podem usar gestos de deslizamento (swipe) em uma agenda na tela para navegar pelos dias do mês e visualizar os dias disponíveis para agendar consultas.
+- **Manipulação direta:** os funcioários podem usar gestos de deslizamento (swipe) em uma agenda na tela para navegar pelos dias do mês e visualizar os dias disponíveis para agendar consultas.
 
-- Seleção do menu os usuários terão o menu já disponível na tela inicial, com todas as funcionalidades aparentes para que eles escolham em apenas um clique qual função eles querem utilizar;
+- **Seleção do menu:** os usuários terão o menu já disponível na tela inicial, com todas as funcionalidades aparentes para que eles escolham em apenas um clique qual função eles querem utilizar;
 
-- Preenchimento de formulário: os funcionários poderão preencher campos para marcar consultas na aba “Agenda”, escolhendo o título, horário e descrição, para adicionar títulos aos conteúdos na aba “Conteúdos”, para adicionar descrição nos seus posts na aba “Diário Alimentar” (caso clientes) ou responder os posts (caso funcionários), adicionar títulos e descrições nas informações oferecidas na aba “Comunidade Nutri Duni Tê”, para mandar alguma mensagem na aba “Chat Direto” ou para adicionar título e descrição (caso funcionários) nas notificações da aba de notificações;
+- **Preenchimento de formulário:** os funcionários poderão preencher campos para marcar consultas na aba “Agenda”, escolhendo o título, horário e descrição, para adicionar títulos aos conteúdos na aba “Conteúdos”, para adicionar descrição nos seus posts na aba “Diário Alimentar” (caso clientes) ou responder os posts (caso funcionários), adicionar títulos e descrições nas informações oferecidas na aba “Comunidade Nutri Duni Tê”, para mandar alguma mensagem na aba “Chat Direto” ou para adicionar título e descrição (caso funcionários) nas notificações da aba de notificações;
+
+## Histórico de Revisão
+
+
+
+|Data|Versão|Descrição|Autor|
+| - | - | - | - |
+|**21/10/2023**|**1.0**|**Rascunho de MVP 1 e 2**|**Vinícius**|
+|**22/10/2023**|**1.1**|**Correções de formatação e gramática**|**Gabriel Bertolazi**|
+|**23/10/2023**|**1.2**|**Rascunho da Arquitetura**|**Heloísa**|
+|**25/10/2023**|**1.3**|**Revisão dos Requisitos Funcionais e dos Critérios de Priorização**|**Caio Pacheco**|
+|||||
