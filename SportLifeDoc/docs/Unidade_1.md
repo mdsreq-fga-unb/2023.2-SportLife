@@ -1,48 +1,5 @@
 # Unidade 1
 
-Repositório de projeto da disciplina de MDS.
-
-Versão [1.0]
-
-Histórico de Revisão
-
-
-
-|Data|Versão|Descrição|Autor|
-| - | - | - | - |
-|**20/09/2023**|**1.0**|**Rascunho de Visão do Produto e Projeto**|**Caio Pacheco**|
-|||||
-|||||
-|||||
-
-## Sumário
-
-[**1 VISÃO GERAL DO PRODUTO**](#_page3_x72.00_y109.00)
-
-1. [Problema ](#_page3_x72.00_y150.25)
-1. [Declaração de Posição do Produto ](#_page3_x72.00_y481.99)
-1. [Objetivos do Produto ](#_page4_x72.00_y72.00)
-1. [Tecnologias a Serem Utilizadas ](#_page4_x72.00_y134.60)
-
-[**2 VISÃO GERAL DO PROJETO**](#_page4_x72.00_y203.19)
-
-1. [Organização do Projeto ](#_page4_x72.00_y244.44)
-1. [Planejamento das Fases e/ou Iterações do Projeto ](#_page4_x72.00_y543.58)
-1. [Matriz de Comunicação ](#_page5_x72.00_y94.10)
-1. [Gerenciamento de Riscos ](#_page5_x72.00_y295.79)
-1. [Critérios de Replanejamento ](#_page5_x72.00_y473.37)
-
-[**3 PROCESSO DE DESENVOLVIMENTO DE SOFTWARE**](#_page5_x72.00_y540.03)
-
-[3.1 Fases do Fluxo de Trabalho e seus Frameworks de Origem ](#_page5_x72.00_y587.27)
-
-[**4 LIÇÕES APRENDIDAS**](#_page7_x72.00_y436.50)
-
-1. [Unidade 1 ](#_page7_x72.00_y483.75)
-
-[**5 REFERÊNCIAS BIBLIOGRÁFICAS**](#_page8_x72.00_y155.54)
-
-
 **Visão de produto e projeto**
 
 ## <a name="_page3_x72.00_y109.00"></a>**1 VISÃO GERAL DO PRODUTO**
@@ -100,8 +57,10 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 | - | - | - | - |
 |*Sprint 1*|*Definição do Produto*|*05/09/23*|*21/09/23*|
 |*Sprint 2*|*MVP e Planejamento do Projeto*|*26/09/23*|*12/10/23*|
-|*Sprint 3*|*Funcionalidades Básicas*|*17/10/23*|*02/11/23*|
-|*Sprint 4*|*Funcionalidades Avançadas*|*07/11/23*|*22/11/23*|
+|*Sprint 3*|*US 3,4,1 e 2*|*07/11/23*|*21/11/23*|
+|*Sprint 4*|*US 6,13,7 e 5*|*22/11/23*|*06/12/23*|
+|*Sprint 5*|*A definir*|*A definir*|*A definir*|
+|*Sprint 5*|*A definir*|*A definir*|*A definir*|
 
 ### 2.3 **Matriz<a name="_page5_x72.00_y94.10"></a> de Comunicação**
 
@@ -109,9 +68,10 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 
 |***Descrição***|***Área/ Envolvidos***|***Periodicidade***|***Produtos Gerados***|
 | - | :- | - | - |
-|*- Acompanhamento das Atividades em Andamento*|*- Equipe do Projeto*|*- Semanal*|*- Ata de reunião*|
-|<p>*- Acompanhamento dos Riscos,*</p><p>*Compromissos, Ações Pendentes, Indicadores*</p>|*-Equipe do Projeto -Monitores*|*- Quinzenal*|*- Relatório de situação do projeto*|
-|*- Comunicar situação do projeto*|<p>- *Equipe do Projeto*</p><p>- *Professor*</p>|*- Semanal*|<p>- *Ata de reunião e*</p><p>- *Relatório de Situação do Projeto*</p>|
+|Definição de Sprint e próximos objetivos, acompanhar o andamento geral do projeto|Toda equipe|Quinzenalmente| Ata de reunião|
+|Discussão sobre possíveis desafios e soluções apresentados pelos membros|Toda equipe, monitores|Semanalmente|Relatório de situação do projeto|
+|Reunião com o cliente e entrega parcial|Toda a equipe, cliente|Quinzenalmente|Ata de reunião e validação da entrega|
+|Comunicação assíncrona entre os membros da equipe|Toda a equipe, cliente, monitores|comforme necessário|Mensagens de texto|
 
 ### 2.4 **Gerenciamento<a name="_page5_x72.00_y295.79"></a> de Riscos**
 
@@ -139,8 +99,8 @@ A lista de riscos deve ser revisada periodicamente para garantir que ainda seja 
 Todos os riscos identificados e mitigados devem ser registrados para que possam ser facilmente consultados. No caso deste projeto, os riscos serão registrados no Painel de Controle e no Plano do Projeto.
 
 ### 2.5 **Critérios<a name="_page5_x72.00_y473.37"></a> de Replanejamento**
-- *Atraso significativo nas entregas*
-- *Mudanças significativas no escopo do projeto*
+- *Atraso nas entregas*
+- *Aumento do escopo do projeto*
 - *Feedback<a name="_page5_x72.00_y540.03"></a> negativo dos usuários que exija ajustes substanciais*
 
 ## **3 PROCESSO DE DESENVOLVIMENTO DE SOFTWARE**
@@ -148,38 +108,28 @@ Todos os riscos identificados e mitigados devem ser registrados para que possam 
 ### <a name="_page5_x72.00_y587.27"></a>**3.1 Fases do Fluxo de Trabalho e seus Frameworks de Origem**
 
 #### 1. **Sprint Planning**
-- **Descrição:***Esta fase envolve o planejamento das atividades que serão realizadas*
+- **Descrição:** *Serão planejadas as atividades a serem executadas. Para isso, o Dono do Produto, o Scrum Master e a equipe de desenvolvimento se reúnem a fim de estabelecer os objetivos e as tarefas do sprint.*
 
-*durante o próximo sprint. O Dono do Produto, a equipe de desenvolvimento e o Scrum Master se reúnem para definir os objetivos e as tarefas do sprint.*
-
-- **Framework de Origem:***Scrum*
+- **Framework de Origem:** *Scrum*
 #### 2. **Desenvolvimento**
-- **Descrição:***Durante esta fase, a equipe de desenvolvimento trabalha nas tarefas definidas durante o Sprint Planning. É aqui que a codificação, testes e*
+- **Descrição:** *Durante esta fase, a equipe de desenvolvimento trabalha nas tarefas definidas durante o Sprint Planning. É aqui que a codificação, testes e integração acontecem.*
 
-*integração acontecem.*
-
-- **Framework de Origem:***Scrum para a estrutura do sprint e XP para práticas de desenvolvimento como programação em pares e Test-Driven Development*
-
-*(TDD***)**
+- **Framework de Origem:** *Scrum para a estrutura do sprint e XP para práticas de desenvolvimento como programação em pares e Test-Driven Development (TDD)*
 
 #### 3. **Revisão**
-- **Descrição:***Esta é a fase onde a equipe e os stakeholders revisam o que foi alcançado durante o sprint. Testes de aceitação e revisão de código*
+- **Descrição:** *Durante essa etapa, é realizada uma revisão do que foi alcançado no sprint pela equipe e pela cliente. Geralmente, são realizados testes de aceitação e é feita a revisão do código.*
 
-*geralmente ocorrem aqui.*
-
-- **Framework de Origem:***Scrum*
+- **Framework de Origem:** *Scrum*
 #### 4. **Retrospectiva**
-- **Descrição:***Após a fase de revisão, a equipe se reúne para discutir o que funcionou bem, o que pode ser melhorado e como implementar melhorias no*
+- **Descrição:** *Depois de concluída a revisão, a equipe se junta para debater sobre os pontos positivos, as oportunidades de melhoria e as formas de implementar avanços no próximo sprint.*
 
-*próximo sprint.*
-
-- **Framework de Origem:***Scrum*
+- **Framework de Origem:** *Scrum*
 #### 5. **Nova Sprint**
-- **Descrição:***Baseado nas lições aprendidas e feedback recebido, a equipe começa um novo ciclo de sprint, começando novamente com o Sprint*
+- **Descrição:** *Com base nas lições aprendidas e no feedback recebido, a equipe inicia um novo ciclo de sprint. O processo recomeça com o Sprint.*
 
 *Planning.*
 
-- **Framework de Origem:***Scrum*
+- **Framework de Origem:** *Scrum*
 
 ![](imagens/Aspose.Words.1ace3fc0-8a4e-4a9f-9b26-f4d00bce45b4.002.jpeg)
 
@@ -187,17 +137,17 @@ Todos os riscos identificados e mitigados devem ser registrados para que possam 
 
 |***Nome da Atividade***|***Método***|***Ferramenta***|***Entrega***|
 | - | - | - | - |
-|*Definição de Objetivos da Sprint*|*Planejamento de Objetivos*|*Discord/Trello*|*Objetivos da Sprint*|
+|*Definição de Objetivos da Sprint*|*Planejamento de Objetivos*|*Discord/GitHub Projects*|*Objetivos da Sprint*|
 |*Construção de Backlog*|*Planejamento de Sprint*|*Zoom*|*Backlog da Sprint*|
-|*Atribuição de Tarefas*|*Planejamento de Tarefas*|*Discord/Trello*|*Tarefas atribuídas*|
+|*Atribuição de Tarefas*|*Planejamento de Tarefas*|*Discord/GitHub Projects*|*Tarefas atribuídas*|
 |*Codificação*|*Pair Programming*|*Dart*|*Código Funcional*|
-|*Desenvolvimento de Testes*|*Desenvolvimento Orientado a Testes*|*A definir*|*Testes Unitários*|
+|*Desenvolvimento de Testes*|*Desenvolvimento Orientado a Testes*|*VS Code*|*Testes Unitários*|
 |*Integração Contínua*|*CI/CD*|*Discord/Github*|*Workflow de integração contínua*|
-|*Revisão de Código*|*Revisão por pares*|*A definir*|*Melhorias de código*|
-|*Testes de Aceitação*|*Testes de usabilidade*|*A definir*|*Testes de Aceitação Passados*|
+|*Revisão de Código*|*Revisão por pares*|*VS Code*|*Melhorias de código*|
+|*Testes de Aceitação*|*Testes de usabilidade*|*GitHub Actions*|*Testes de Aceitação Passados*|
 |*Retrospectiva*|*Revisão de Sprint*|*Discord*|*Ações de melhorias*|
 |*Documentação*|*Documentação Incremental*|*Microsoft word*|*Documentação*|
-|*Planejamento do Próximo Sprint*|*Planejamento de objetivos*|*Discord/Planning Poker/ Trello*|*Objetivos para a próxima Sprint*|
+|*Planejamento do Próximo Sprint*|*Planejamento de objetivos*|*Discord/GitHub Projects*|*Objetivos para a próxima Sprint*|
 
 ## <a name="_page7_x72.00_y436.50"></a>**4 LIÇÕES APRENDIDAS**
 

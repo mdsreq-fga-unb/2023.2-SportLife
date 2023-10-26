@@ -111,7 +111,7 @@ As US serão analisadas, então os atributos `C` e `V`  serão classificados com
 
 ![Image](https://github.com/mdsreq-fga-unb/2023.2-SportLife/assets/90219652/5620b86c-1156-4e79-b45a-c761f6fe72d8)
 
-Essa fórmula quantifica custo benefício de desenvolvimento de cada US. O valor de negócio é a base nota, sendo penalizada negativamente por complexidade e escalada negativamente por dependência. Histórias serão desenvolvidas por ordem decrescente de score. Dessa forma, histórias com maior valor, baixa complexidade e baixa dependência são desenvolvidas primeiro.
+Essa fórmula quantifica custo benefício de desenvolvimento de cada US. O valor de negócio é a base da nota, sendo penalizada negativamente por complexidade e escalada negativamente por dependência. Histórias serão desenvolvidas por ordem decrescente de score. Dessa forma, histórias com maior valor, baixa complexidade e baixa dependência são desenvolvidas primeiro.
 
 ### Resultado
 
@@ -180,7 +180,7 @@ Para as US que serão desenvolvidas no MVP 2, serão todas que não estão (ou n
 
 ### *Segurança:*
 
-1. Todas as senhas/credenciais, com exeção de nomes de usuário, deverão ser armazenadas em ``hash`` e nunca em texto pleno.
+1. Todas as senhas/credenciais, com exceção de nomes de usuário, deverão ser armazenadas em ``hash`` e nunca em texto pleno.
 
 ### *Restrições de Design:*
 
@@ -227,7 +227,7 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 
 ### Princípios de UI
 
-- **Aprendizagem:**  interface sujestiva, aonde para entrar em qualquer uma das funcionalidades que estarão disponíveis já na tela de início bastará um único clique, além de que dentro de cada uma delas também com no máximo 5 cliques o usuário conseguirá realizar a ação desejada, sendo:
+- **Aprendizagem:**  interface sugestiva, para entrar em qualquer uma das funcionalidades que estarão disponíveis já na tela de início bastará um único clique, além de que dentro de cada uma delas também com no máximo 5 cliques o usuário conseguirá realizar a ação desejada, sendo:
   - *Agenda:* necessário 5 cliques para adicionar um novo evento ou 4 cliques para apagar um evento;
   - *Próximas consultas:* necessário somente o clique de entrada;
   - *Diário alimentar:* 5 cliques para adicionar algo novo, caso cliente, e 3 para apagar, ou 2 cliques para a nutricionista responder o post;
