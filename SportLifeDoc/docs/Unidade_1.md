@@ -157,9 +157,19 @@ Todos os riscos identificados e mitigados devem ser registrados para que possam 
 plataformas de organização, e usar nosso tempo livre para aprender as tecnologias que iremos usar em nosso projeto, para assim consiguiremos apresentar um melhor trabalho
 nas próximas unidades.*
 
-<a name="_page8_x72.00_y155.54"></a>  
 
-## **5 REFERÊNCIAS BIBLIOGRÁFICAS**
+
+## Histórico de Revisão
+
+|Data|Versão|Descrição|Autor|
+| - | - | - | - |
+|**20/09/2023**|**1.0**|**Rascunho de Visão do Produto e Projeto**|**Caio Pacheco**|
+|**27/09/2023**|**1.1**|**Revisão de gramática**|**Gabriel Bertolazi**|
+|**08/10/2023**|**1.2**|**Revisão de Visão do Produto**|**Vinícius**|
+|**24/10/2023**|**1.3**|**Refatoração Geral**|**Gabriel Bertolazi**|
+|**26/10/2023**|**1.4**|**Correções Finais**|**Caio Pacheco**|
+
+## **REFERÊNCIAS BIBLIOGRÁFICAS**
 
 *Slides do Professor do módulo em questão*
 
