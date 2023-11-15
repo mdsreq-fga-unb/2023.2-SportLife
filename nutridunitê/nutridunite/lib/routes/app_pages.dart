@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:nutridunite/app/View/home_page.dart';
 import 'app_route.dart';
 
 class AppPages {
@@ -7,8 +8,7 @@ class AppPages {
   static final routes = [
     GetPage(
       name: Routes.HOME,
-      page: () => InitialView(),
-      //binding: InitialBinding(),
+      page: () => HomePage(),
     ),
+  ];
 }
-
