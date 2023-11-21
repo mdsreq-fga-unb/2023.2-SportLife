@@ -7,6 +7,9 @@ nav:
   - 'Home': index.md
   - 'Unidade 1': Unidade_1.md
   - 'Unidade 2': Unidade_2.md
+  - 'Unidade 3': Unidade_3.md
+  - 'Sprint 1': Sprint_1.md
+  - 'Reuniões': Reuniões.md
 
 markdown_extensions:
   - pymdownx.tasklist #Lista de tarefas
