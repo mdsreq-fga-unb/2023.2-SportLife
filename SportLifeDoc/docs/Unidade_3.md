@@ -192,3 +192,5 @@ US 2:
     - Desenvolver funcionalidades backend;
 - Tarefa 2: Implementar um sistema de autenticação
 - Tarefa 3: Integrar o sistema de autenticação com o banco de dados de usuários
+
+ 
