@@ -19,7 +19,7 @@ Na Sprint 1, ocorreu a confecção dos critérios de avaliação das histórias 
 | --- | US 01: Eu, como funcionário, quero me autenticar usando um login para ter acesso a todas as funcionalidades disponíveis aos funcionários; |
 | --- | US 02: Eu, como usuário, quero me autenticar usando um login para ter acesso a todas as funcionalidades disponíveis aos usuários. |
 | Sprint Review | Aprovação da cliente e feedback para que haja uma mudança no cadastro (mudando o CPF pelo número de telefone) e mudança na autenticação (usar o e-mail como usuário); |
-Prioridade para o próximo MVP: realizar mais US’s e conciliar melhor o tempo. |
+| --- | Prioridade para o próximo MVP: realizar mais US’s e conciliar melhor o tempo. |
 | Histórias não realizadas | US 5 e 8;
 | --- | Justificativa: por conta de problemas técnicos com a plataforma de desenvolvimento e com a plataforma de integração o tempo estimado da sprint não foi o suficiente para a confecção de todas as histórias propóstas pelo grupo. |
 | Sprint Retrospective | Pontos positivos: integração entre os membros, bastante interesse e trabalho em equipe por parte de todos, desenvolvimento fluido do front end, ritmo saudável e programação em pares; |
@@ -48,6 +48,7 @@ Prioridade para o próximo MVP: realizar mais US’s e conciliar melhor o tempo.
 
 ## Template do Review da Sprint
 
+![](imagens/Template-Sprint-Review.jpeg)
 
 ## Reunião de deliberação com cliente
 [Vídeo da reunião](https://drive.google.com/file/d/19xnRxK5q0yaLe7Fc2eH_EVp4PDiDAoT3/view?usp=sharing)
