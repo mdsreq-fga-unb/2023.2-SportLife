@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/my_button.dart';
 import 'package:modernlogintute/components/my_textfield.dart';
+import 'package:modernlogintute/pages/cadastro_job.dart';
 import 'package:modernlogintute/pages/cadastro_user.dart';
 
 
@@ -27,7 +28,7 @@ class LoginPage extends StatelessWidget {
         
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('lib/images/crianca.jpg'),
+                image: AssetImage('lib/images/crianca.jpeg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -38,20 +39,22 @@ class LoginPage extends StatelessWidget {
                 children: [
         
                   // inserir imagem
-                 Container(
-                  width: 200,
-                  height: 200,
-                  child: Image.asset('lib/images/nutri.jpg'),
-        
+                 ClipOval(
+                   child: SizedBox(
+                    width: 200,
+                    height: 200,
+                    child: Image.asset('lib/images/nutri.jpg'),
+                         
+                   ),
                  ),
                   const SizedBox(height: 50),
         
                   // Log in texto
-                  Text(
+                  const Text(
                     'Log In',
                     style: TextStyle(
-                      color: Colors.grey[900],
-                      fontSize: 20,
+                      color: Colors.black,
+                      fontSize: 30,
                     ),
                   ),
         
@@ -103,15 +106,39 @@ class LoginPage extends StatelessWidget {
                         child: Text(
                           'Cadastre-se',
                           style: TextStyle(color: Colors.grey[900]),
-            ),
-          ),
-            ],
-          ),
-        ),
+                          ),
+                        ),
+                      ],
+                    ),
+                   ),
                   // Entrar
                   MyButton(
                     onTap: signUserIn,
                   ),
+                  const SizedBox(height: 30),
+
+                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                       const Text(
+                        'Acesso a funcionários: Clique',
+                          style: TextStyle(color: Colors.white),
+                       ),
+                    const SizedBox(width: 4),
+                    TextButton(
+                    onPressed: () {
+                         Navigator.push(context, MaterialPageRoute(builder: (context) => CadastroJob()));
+                   },
+                  child: const Text(
+                      'AQUI',
+                      style: TextStyle(
+                      color: Colors.blue,
+                     fontWeight: FontWeight.bold,
+        ),
+      ),
+    ),
+  ],
+)
                 ],
               ),
             ),

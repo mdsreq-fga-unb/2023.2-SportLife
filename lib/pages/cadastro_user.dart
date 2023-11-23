@@ -13,7 +13,7 @@ class CadastroUser extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title: Text('Cadastro de Usuário'),
+        title: const Text('Cadastro de Usuário'),
       ),
       body: SingleChildScrollView(
         child: Stack(
@@ -21,7 +21,7 @@ class CadastroUser extends StatelessWidget {
             // Imagem de background
             Positioned.fill(
               child: Image.asset(
-                'lib/images/crianca.jpg',
+                'lib/images/crianca.jpeg',
                 fit: BoxFit.cover,
               ),
             ),
@@ -34,7 +34,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Telefone do responsável:',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -53,7 +53,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Nome do responsável:',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -73,7 +73,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'E-mail do responsável:',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -93,7 +93,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Nome do paciente',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -113,7 +113,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Data de nascimento do paciente:',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -133,7 +133,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Senha',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -152,7 +152,7 @@ class CadastroUser extends StatelessWidget {
                     const Text(
                       'Confirmação de senha:',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),

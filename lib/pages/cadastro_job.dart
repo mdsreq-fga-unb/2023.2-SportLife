@@ -12,20 +12,15 @@ class CadastroJob extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
- backgroundColor: Colors.grey[300],
+ backgroundColor: Colors.green,
       appBar: AppBar(
-        title: const Text('Cadastro de Usuário'),
+        title: const Text('Cadastro de Funcionário'),
       ),
       body: SingleChildScrollView(
         child: Stack(
           children: [
-            // Imagem de background
-            Positioned.fill(
-              child: Image.asset(
-                'lib/images/crianca.jpg',
-                fit: BoxFit.cover,
-              ),
-            ),
+            
+            
             // Painel
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 150, 20, 20),
@@ -33,7 +28,7 @@ class CadastroJob extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                     const Text(
-                      'CPF do responsável:',
+                      'CPF:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -52,7 +47,7 @@ class CadastroJob extends StatelessWidget {
                     const SizedBox(height: 20),
       
                     const Text(
-                      'Nome do responsável:',
+                      'Nome Completo:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -72,7 +67,7 @@ class CadastroJob extends StatelessWidget {
                     const SizedBox(height: 20),
       
                     const Text(
-                      'E-mail do responsável:',
+                      'E-mail:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -90,29 +85,9 @@ class CadastroJob extends StatelessWidget {
                     ),
       
                     const SizedBox(height: 20),
-      
-                    const Text(
-                      'Nome do paciente',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-      
-                    const SizedBox(height: 10),
-                   
-      
-                    MyTextField(
-                      controller: cpfController,
-                      hintText: 'Nome',
-                      obscureText: true,
-                    ),
-      
-                    const SizedBox(height: 20),
 
                     const Text(
-                      'Data de nascimento do paciente:',
+                      'Data de nascimento:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -130,9 +105,29 @@ class CadastroJob extends StatelessWidget {
                     ),
       
                     const SizedBox(height: 20),
+
+                  
+                    const Text(
+                      'Telefone:',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+      
+                    const SizedBox(height: 10),
+      
+                    MyTextField(
+                      controller: cpfController,
+                      hintText: 'Telefone',
+                      obscureText: true,
+                    ),
+
+                    const SizedBox(height: 20),
       
                     const Text(
-                      'Senha',
+                      'Senha:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -148,8 +143,10 @@ class CadastroJob extends StatelessWidget {
                       obscureText: true,
                     ),
       
-                    const SizedBox(height: 20),
       
+                    const SizedBox(height: 10),
+
+
                     const Text(
                       'Confirmação de senha:',
                       style: TextStyle(
