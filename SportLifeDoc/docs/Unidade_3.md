@@ -78,3 +78,5 @@ US 2:
 **Unidade 3**
 
 *Aprimoramos nosso conhecimento sobre integração contínua e aprendemos a usar o Git de forma ágil. Além de nós termos elevado nosso conhecimento com relação as linguagens de programação Dart e Python. E por fim, aprendemos sobre construção de software botando em prática as práticas e técnicas de construção, como a programação em pares e o código limpo, o que foi muito útil para a organização e desenvolvimento em conjunto do código.*
+
+[Vídeo Retrospectiva Unidade 03](https://drive.google.com/file/d/1u1p6ZTgDUCBj6GzAHkOvFefQ6Uoll8jj/view?usp=sharing)
