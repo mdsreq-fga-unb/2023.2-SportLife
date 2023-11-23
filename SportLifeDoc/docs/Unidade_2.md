@@ -64,36 +64,34 @@
 
 2.1. Marcar Eventos
 
-- `US6:` Eu, como funcionário, quero ver e marcar consultas ou reuniões futuras para me preparar de acordo;
-- `US8:` Eu, como funcionário, quero poder desmarcar e/ou alterar dados de consultas para maximizar eficiência da clínica;
+- `US6:` Eu, como funcionário, quero ver eventos futuras para me preparar de acordo;
+- `US7:` Eu, como funcionário, marcar eventos futuras para me preparar de acordo;
+- `US9:` Eu, como funcionário, quero poder desmarcar eventos para maximizar eficiência da clínica;
+- `US10:` EU, como funcionário, quero poder alterar dados de eventos para maximizar a eficiência da clínica;
 
 2.2. Consultar Marcações
 
-- `US7:` Eu, como usuário, quero poder me informar sobre datas de consultas marcadas para evitar cancelamentos e inconveniências;
+- `US8:` Eu, como usuário, quero poder me informar sobre datas de consultas marcadas para evitar cancelamentos e inconveniências;
 
 2.3. Documentar Hábitos Alimentares
 
-- `US9:` Eu, como funcionário, quero dar feedback de forma consistente sobre os hábitos alimentares de pacientes individuais;
-- `US10:` Eu, como usuário, quero registrar meus hábitos alimentares para ajudar em decisões sobre meu tratamento;
-- `US11:` Eu, como funcionário, quero me informar sobre os hábitos alimentares diários de pacientes afim de personalizar e ajustar os tratamentos;
+- `US11:` Eu, como funcionário, quero dar feedback de forma consistente sobre os hábitos alimentares de pacientes individuais;
+- `US12:` Eu, como usuário, quero registrar meus hábitos alimentares para ajudar em decisões sobre meu tratamento;
+- `US13:` Eu, como funcionário, quero me informar sobre os hábitos alimentares diários de pacientes afim de personalizar e ajustar os tratamentos;
 
 2.4. Disponibilizar Conteúdos
 
-- `US12:` Eu, como funcionário, quero distribuir conteúdos educativos de forma rápida para múltiplos pacientes, afim de evitar mandar os conteúdos individualmente;
+- `US14:` Eu, como funcionário, quero distribuir conteúdos educativos de forma rápida para múltiplos pacientes, afim de evitar mandar os conteúdos individualmente;
 
 ### *Tema 3: Comunicação*
 
-3.1. Contatar Comunidade
+3.1. Comunicar com Nutricionista
 
-- `US15:` Eu, como usuário, quero poder interagir com outros usuários em situações similares para compartilhar experiências e me conectar;
+- `US15:` Eu, como funcionário, quero me comunicar de forma privada com pacientes afim de manter a confidencialidade médica;
 
-3.2. Comunicar com Nutricionista
+3.2. Notificar Usuário
 
-- `US13:` Eu, como funcionário, quero me comunicar de forma privada com pacientes afim de manter a confidencialidade médica;
-
-3.3. Notificar Usuário
-
-- `US14:` Eu, como funcionário, quero ser capaz de notificar pacientes com informações e dicas ao longo do dia afim de reforçar e facilitar o tratamento;
+- `US16:` Eu, como funcionário, quero ser capaz de notificar pacientes com informações ao longo do dia afim de reforçar e facilitar o tratamento;
 
 ## Críterio de Priorização das Histórias de Usuário
 
