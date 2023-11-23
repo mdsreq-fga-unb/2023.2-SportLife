@@ -261,6 +261,32 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 
 - **Preenchimento de formulário:** os funcionários poderão preencher campos para marcar consultas na aba “Agenda”, escolhendo o título, horário e descrição, para adicionar títulos aos conteúdos na aba “Conteúdos”, para adicionar descrição nos seus posts na aba “Diário Alimentar” (caso clientes) ou responder os posts (caso funcionários), adicionar títulos e descrições nas informações oferecidas na aba “Comunidade Nutri Duni Tê”, para mandar alguma mensagem na aba “Chat Direto” ou para adicionar título e descrição (caso funcionários) nas notificações da aba de notificações;
 
+## Esboço do Aplicativo
+
+### Paint
+
+![](imagens/Esboço_LogIn.png)
+
+![](imagens/Esboço_tela_inicial_ADM.png)
+
+![](imagens/Esboço_tela_inicial_USER.png)
+
+### Figma
+
+![](imagens/esb_1.jpeg)
+
+![](imagens/esb_2.jpeg)
+
+![](imagens/esb_3.jpeg)
+
+![](imagens/esb_4.jpeg)
+
+![](imagens/esb_5.jpeg)
+
+![](imagens/esb_6.jpeg)
+
+![](imagens/esb_7.jpeg)
+
 ## Histórico de Revisão
 
 |Data|Versão|Descrição|Autor|
