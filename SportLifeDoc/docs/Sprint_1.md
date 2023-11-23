@@ -21,9 +21,9 @@ Na Sprint 1, ocorreu a confecção dos critérios de avaliação das histórias 
 | Sprint Review | Aprovação da cliente e feedback para que haja uma mudança no cadastro (mudando o CPF pelo número de telefone) e mudança na autenticação (usar o e-mail como usuário); |
 | --- | Prioridade para o próximo MVP: realizar mais US’s e conciliar melhor o tempo. |
 | Histórias não realizadas | US 5 e 8;
-| --- | Justificativa: por conta de problemas técnicos com a plataforma de desenvolvimento e com a plataforma de integração o tempo estimado da sprint não foi o suficiente para a confecção de todas as histórias propóstas pelo grupo. |
+| --- | Justificativa: por conta de problemas técnicos com a plataforma de desenvolvimento e com a plataforma de integração, o tempo estimado da sprint não foi o suficiente para a confecção de todas as histórias propóstas pelo grupo. |
 | Sprint Retrospective | Pontos positivos: integração entre os membros, bastante interesse e trabalho em equipe por parte de todos, desenvolvimento fluido do front end, ritmo saudável e programação em pares; |
-| --- |Pontos negativos: uso devido dos testes, adaptação às tecnologias, má interpretação sobre como seria feita a entrega, conciliação do manejo de tempo; |
+| --- |Pontos negativos: não saber fazer o uso devido dos testes, adaptação às tecnologias, má interpretação sobre como seria feita a entrega, conciliação do manejo de tempo; |
 | --- |Melhorias para a próxima sprint: melhor planejamento da sprint, conciliar melhor o tempo disponível, aumentar o número de histórias a serem feitas para evitar atraso ou entrega incompleta. |
 
 ## Pair Programming realizado:
