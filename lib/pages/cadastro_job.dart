@@ -3,17 +3,18 @@ import 'package:modernlogintute/components/custom_button.dart';
 import 'package:modernlogintute/pages/login_page.dart';
 import 'package:modernlogintute/components/my_textfield.dart';
 
-class CadastroUser extends StatelessWidget {
-  CadastroUser({Key? key}) : super(key: key);
+class CadastroJob extends StatelessWidget {
+  CadastroJob({Key? key}) : super(key: key);
 
   final cpfController = TextEditingController();
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+
+ backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title: Text('Cadastro de Usuário'),
+        title: const Text('Cadastro de Usuário'),
       ),
       body: SingleChildScrollView(
         child: Stack(
@@ -32,7 +33,7 @@ class CadastroUser extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                     const Text(
-                      'Telefone do responsável:',
+                      'CPF do responsável:',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -44,7 +45,7 @@ class CadastroUser extends StatelessWidget {
       
                     MyTextField(
                       controller: cpfController,
-                      hintText: 'Telefone',
+                      hintText: 'CPF',
                       obscureText: true,
                     ),
       
