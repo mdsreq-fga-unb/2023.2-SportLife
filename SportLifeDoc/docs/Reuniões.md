@@ -1,6 +1,8 @@
-# Unidade 01
+# Reuniões
 
-## Reunião 00 - Com a cliente
+## Unidade 01
+
+### Reunião 00 - Com a cliente
 
 Perguntas a serem feitas:
 
@@ -22,7 +24,7 @@ Conversa com ela:
 - Os problemas que ela disse ter: melhorar a comunicação, lembretes e interações com a nutri;
 - A ciente viaja quarta quinta e sexta, caso tenha a reunião semana que vem o melhor dia seria segunda;
 
-## Reunião 01 - 11/09
+### Reunião 01 - 11/09
 
 Briefing (Modelo padrão do professor):
 
@@ -39,9 +41,9 @@ Novas decisões:
 - Controle de nutrientes ingeridos pela criança;
 - Fórum de dúvidas.
 
-# Unidade 02
+## Unidade 02
 
-## Reunião 02 - 09/10
+### Reunião 02 - 09/10
 
 Definição dos Requisitos Funcionais, Requisitos Não-Funcionais
 
@@ -95,7 +97,7 @@ Definição de Ready e Done
     - O requisito deve cumprir os critérios de aceitação;
     - O código deve ser revisado e aprovado pelos membros da equipe;
 
-## Reunião 03 - Com a cliente - 11/10
+### Reunião 03 - Com a cliente - 11/10
 
 Pedidos da cliente
 
@@ -104,25 +106,25 @@ Pedidos da cliente
 - Botar agendamento na aba do cliente, para lembrar ele da consulta;
 - Deixar o app o mais simplificado possivel;
 
-## Reunião 04 - 16/10
+### Reunião 04 - 16/10
 
 - Atualização, baseada na opinião do monitor, dos requisitos funcionais e não funcionais;
 - Desenvolvimento das histórias de usuário;
 - Organização dos requisitos em: Temas - Épicos - Histórias;
 - Atualização, baseada na opinião do monitor, das definições de ready e done.
 
-## Reunião 05 - 26/10
+### Reunião 05 - 26/10
 
 - Correção de alguns erros gramaticais na unidade 2 do GitPages;
 - Finalização da resolução da issues;
 - Finalização do esboço do projeto feito pelo figma;
 - Gravação do vídeo de apresentação da unidade 02;
 
-# Unidade 03
+## Unidade 03
 
-## Reunião 06 - 08/11
+### Reunião 06 - 08/11
 
-### Pautas abordadas na Sprint Planning
+#### Pautas abordadas na Sprint Planning
 
 - Utilizamos o Planning Poker para definir as primeiras histórias a serem feitas
 - Preenchimento do template da Planning
@@ -141,7 +143,7 @@ Pedidos da cliente
 - Aplicamos a DoR em cada uma das histórias;
 - Estabelecemos o backlog da sprint e selecionamos tarefas para cada história;
 
-## Reunião 07 - 13/11
+### Reunião 07 - 13/11
 
 - Colocamos as pastas de Model View e Controller no git;
 - Redefinição das tarefas para cada um dos integrantes;
