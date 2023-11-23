@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/custom_button.dart';
 import 'package:modernlogintute/pages/login_page.dart';
 import 'package:modernlogintute/components/my_textfield.dart';
+import 'package:awesome_dialog/awesome_dialog.dart';
 
 class CadastroUser extends StatelessWidget {
   CadastroUser({Key? key}) : super(key: key);
@@ -174,18 +175,28 @@ class CadastroUser extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: CustomButton(
-          text: 'Avançar',
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => LoginPage()),
-            );
-          },
-        ),
-      ),
+     bottomNavigationBar: Padding(
+  padding: const EdgeInsets.all(20.0),
+  child: CustomButton(
+    text: 'Avançar',
+    onPressed: () {
+      // Mostrar o diálogo de sucesso ao pressionar o botão
+      AwesomeDialog(
+        context: context,
+        dialogType: DialogType.success,
+        animType: AnimType.bottomSlide,
+        title: 'Sucesso',
+        desc: 'Você já está cadastrado!',
+        btnOkOnPress: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => LoginPage()),
+          );
+        },
+      ).show();
+    },
+  ),
+),
     );
   }
 }
