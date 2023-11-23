@@ -1,10 +1,25 @@
-from django.shortcuts import render
-from rest_framework import generics
-from user_client import models
-from .serializers import login_cliente_Serializer
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.authentication import SessionAuthentication, TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework import status
 
-class login_cliente (generics.ListCreateAPIView):
-    queryset= models.Cliente.objects.all()
-    serializer_class = login_cliente_Serializer
+from django.shortcuts import get_object_or_404
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
+from user_client.models import Cliente
 
-    
+from user_client.serializers import cliente_Serializer
+
+
+
+@api_view(['POST'])
+def login(request):
+
+    user = get_object_or_404(Cliente, email=request.data["email"])
+    if not user.check_password(request.data["senha"]):
+        return Response("usuário não encontrado", status=status.HTTP_404_NOT_FOUND)
+    token, created = Token.objects.get_or_create(user=user)
+    serializer = cliente_Serializer(instance =user)
+    return Response({"token": token.key, "user": serializer.data})
+

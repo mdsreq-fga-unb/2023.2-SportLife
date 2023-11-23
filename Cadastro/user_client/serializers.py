@@ -5,14 +5,15 @@ from django.contrib.auth.hashers import make_password
 
 
 
-class cadastro_cliente_Serializer(serializers.ModelSerializer):
-    class Meta:
+class cliente_Serializer(serializers.ModelSerializer):
+    class Meta(object):
         fields=(
             "id",
-            "telefone",
             "nome",
+            "telefone",
             "email",
             "dependente",
+            "data_nascimento",
             "senha", 
         )
         model=models.Cliente
@@ -23,4 +24,4 @@ class cadastro_cliente_Serializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         validated_data["senha"] = make_password(validated_data.get("senha"))
-        return super(cadastro_cliente_Serializer, self).create(validated_data)
+        return super(cliente_Serializer, self).create(validated_data)

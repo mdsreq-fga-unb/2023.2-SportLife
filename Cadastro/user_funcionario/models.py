@@ -1,12 +1,14 @@
 from django.db import models
 from django.core.validators import MinLengthValidator
+from django.contrib.auth.models import AbstractBaseUser
 
 
-class funcionario(models.Model):
-    telefone = models.CharField(max_length = 11, unique=True, validators=[MinLengthValidator(11, message='telefone deve ter 11 digitos')])
+class funcionario(AbstractBaseUser):
+    telefone = models.CharField(max_length = 13, unique=True)
+    cpf = models.CharField(max_length=11)
     nome = models.CharField(max_length=40)
     email = models.EmailField(max_length=40, unique=True) 
-    
+
     senha = models.CharField(max_length=15, unique=True)
 
     def __str__(self):
