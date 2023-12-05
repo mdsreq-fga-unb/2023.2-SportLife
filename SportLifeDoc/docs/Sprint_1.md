@@ -48,7 +48,7 @@ Na Sprint 1, ocorreu a confecção dos critérios de avaliação das histórias 
 
 ## Template do Review da Sprint
 
-![](imagens/Template-Sprint-Review-1.jpeg)
+![](imagens/Template-Sprint-Review -1.jpeg)
 
 ## Reunião de deliberação com cliente
 [Vídeo da reunião](https://drive.google.com/file/d/19xnRxK5q0yaLe7Fc2eH_EVp4PDiDAoT3/view?usp=sharing)
