@@ -7,7 +7,13 @@ import 'package:awesome_dialog/awesome_dialog.dart';
 class CadastroUser extends StatelessWidget {
   CadastroUser({Key? key}) : super(key: key);
 
-  final cpfController = TextEditingController();
+  final telefoneController = TextEditingController();
+  final nomeResponsavelController = TextEditingController();
+  final nomePacienteController = TextEditingController();
+  final emailController = TextEditingController();
+  final dataNascimentoController = TextEditingController();
+  final senhaController = TextEditingController();
+  final confirmSenhaController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -44,9 +50,9 @@ class CadastroUser extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: telefoneController,
                       hintText: 'Telefone',
-                      obscureText: true,
+                      obscureText: false,
                     ),
       
                     const SizedBox(height: 20),
@@ -64,9 +70,9 @@ class CadastroUser extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: nomeResponsavelController,
                       hintText: 'Nome',
-                      obscureText: true,
+                      obscureText: false,
                     ),
       
                     const SizedBox(height: 20),
@@ -84,9 +90,9 @@ class CadastroUser extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: emailController,
                       hintText: 'Email',
-                      obscureText: true,
+                      obscureText: false,
                     ),
       
                     const SizedBox(height: 20),
@@ -104,9 +110,9 @@ class CadastroUser extends StatelessWidget {
                    
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: nomePacienteController,
                       hintText: 'Nome',
-                      obscureText: true,
+                      obscureText: false,
                     ),
       
                     const SizedBox(height: 20),
@@ -124,9 +130,9 @@ class CadastroUser extends StatelessWidget {
                    
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: dataNascimentoController,
                       hintText: 'xx/yy/zzzz',
-                      obscureText: true,
+                      obscureText: false,
                     ),
       
                     const SizedBox(height: 20),
@@ -143,7 +149,7 @@ class CadastroUser extends StatelessWidget {
                    const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: senhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -162,7 +168,7 @@ class CadastroUser extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: confirmSenhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -186,7 +192,7 @@ class CadastroUser extends StatelessWidget {
         dialogType: DialogType.success,
         animType: AnimType.bottomSlide,
         title: 'Sucesso',
-        desc: 'Você já está cadastrado!',
+        desc: 'Você foi cadastrado!',
         btnOkOnPress: () {
           Navigator.push(
             context,
