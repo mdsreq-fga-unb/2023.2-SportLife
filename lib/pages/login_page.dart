@@ -119,7 +119,7 @@ class LoginPage extends StatelessWidget {
                      Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
                     },
                      buttonText: 'Entrar', // Texto dinâmico para o botão
-),
+                  ),
                   
                   const SizedBox(height: 30),
 
