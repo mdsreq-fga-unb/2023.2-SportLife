@@ -4,6 +4,7 @@ import 'package:modernlogintute/components/my_button.dart';
 import 'package:modernlogintute/components/my_textfield.dart';
 import 'package:modernlogintute/pages/cadastro_job.dart';
 import 'package:modernlogintute/pages/cadastro_user.dart';
+import 'package:modernlogintute/pages/home.dart';
 
 
 
@@ -113,8 +114,13 @@ class LoginPage extends StatelessWidget {
                    ),
                   // Entrar
                   MyButton(
-                    onTap: signUserIn,
-                  ),
+                   onTap: () {
+                    // Ação quando o botão é pressionado
+                     Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+                    },
+                     buttonText: 'Entrar', // Texto dinâmico para o botão
+),
+                  
                   const SizedBox(height: 30),
 
                  Row(

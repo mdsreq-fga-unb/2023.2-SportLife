@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
   final Function()? onTap;
+  final String buttonText; // Novo parâmetro para o texto do botão
 
-  const MyButton({super.key, required this.onTap});
+  const MyButton({
+    Key? key,
+    required this.onTap,
+    required this.buttonText, // Adicionando o parâmetro buttonText
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,10 +21,10 @@ class MyButton extends StatelessWidget {
           color: Colors.black,
           borderRadius: BorderRadius.circular(8),
         ),
-        child: const Center(
+        child: Center(
           child: Text(
-            "Entrar",
-            style: TextStyle(
+            buttonText, // Usando o texto dinâmico passado como parâmetro
+            style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 16,
