@@ -11,16 +11,16 @@ class cadastro_funcionario_Serializer(serializers.ModelSerializer):
             "nome",
             "email",
         
-            "senha"
+            "password"
         )
     
         model=models.funcionario
 
-    senha = serializers.CharField(
+    password = serializers.CharField(
         style={'input_type': 'password'}
     )
     
 
     def create(self, validated_data):
-        validated_data["senha"] = make_password(validated_data.get("senha"))
+        validated_data["password"] = make_password(validated_data.get("password"))
         return super(cadastro_funcionario_Serializer, self).create(validated_data)

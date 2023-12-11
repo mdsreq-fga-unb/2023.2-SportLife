@@ -17,9 +17,9 @@ from user_client.serializers import cliente_Serializer
 def login(request):
 
     user = get_object_or_404(Cliente, email=request.data["email"])
-    if not user.check_password(request.data["senha"]):
+    if not user.check_password(request.data["password"]):
         return Response("usuário não encontrado", status=status.HTTP_404_NOT_FOUND)
-    token, created = Token.objects.get_or_create(user=user)
+    # token, created = Token.objects.get_or_create(user=user)
     serializer = cliente_Serializer(instance =user)
-    return Response({"token": token.key, "user": serializer.data})
+    return Response({"user": serializer.data})
 
