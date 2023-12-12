@@ -108,7 +108,7 @@ class Home extends StatelessWidget {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => const Diario()));
                   
                       },
-                       buttonText: 'Diário', // Texto dinâmico para o botão
+                       buttonText: 'Diário',
                     ),
       
                     const SizedBox(height: 20),
@@ -118,7 +118,7 @@ class Home extends StatelessWidget {
                        Navigator.push(context, MaterialPageRoute(builder: (context) => const Agenda()));
                      
                       },
-                       buttonText: 'Agenda', // Texto dinâmico para o botão
+                       buttonText: 'Agenda', 
                     ),
       
                     const SizedBox(height: 20),
@@ -128,7 +128,7 @@ class Home extends StatelessWidget {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => const Comunidade()));
                        
                       },
-                       buttonText: 'Comunidade', // Texto dinâmico para o botão
+                       buttonText: 'Comunidade', 
                     ),
       
                     const SizedBox(height: 20),
@@ -138,7 +138,7 @@ class Home extends StatelessWidget {
                        Navigator.push(context, MaterialPageRoute(builder: (context) => const Conteudos()));
                        
                       },
-                       buttonText: 'Conteúdos', // Texto dinâmico para o botão
+                       buttonText: 'Conteúdos',
                     ),
       
                     const SizedBox(height: 20),
