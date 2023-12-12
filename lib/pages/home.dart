@@ -6,6 +6,7 @@ import 'package:modernlogintute/pages/notificacoes.dart';
 import 'package:modernlogintute/pages/agenda.dart';
 import 'package:modernlogintute/pages/comunidade.dart';
 import 'package:modernlogintute/pages/diario.dart';
+import 'package:modernlogintute/pages/chat.dart';
 
 
 class Home extends StatelessWidget {
@@ -27,6 +28,18 @@ class Home extends StatelessWidget {
             );
           },
         ),
+        actions: [
+          IconButton(
+            onPressed: () {
+               Navigator.push(context, MaterialPageRoute(builder: (context) => const Chat()));
+              
+            },
+            icon: const CircleAvatar(
+              backgroundImage: AssetImage('lib/images/chat.jpeg'),
+            ),
+          ),
+        ],
+        
       ),
       drawer: Drawer(
         // Conteúdo do Drawer
