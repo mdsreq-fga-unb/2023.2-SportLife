@@ -1,5 +1,5 @@
 import pytest
-import models
+import Cadastro.user_client.models as models
 
 @pytest.mark.django_db
 def test_create_user():
