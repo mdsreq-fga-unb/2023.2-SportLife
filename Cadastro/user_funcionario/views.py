@@ -26,11 +26,10 @@ class cadastro_funcionario (generics.ListCreateAPIView):
 
 
 @api_view(['POST'])
-def login(request):
+def login_funcionario(request):
 
     user = get_object_or_404(models.funcionario, email=request.data["email"])
-    print(user.password)
-    print(request.data["password"])
+    
     if not user.check_password(request.data["password"]):
         return Response("usuário não encontrado", status=status.HTTP_404_NOT_FOUND)
     # token, created = Token.objects.get_or_create(user=user)

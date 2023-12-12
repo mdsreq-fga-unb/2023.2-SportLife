@@ -16,13 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from user_funcionario.views import cadastro_funcionario
+from user_funcionario.views import cadastro_funcionario, login_funcionario
 from user_login import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('cadastro/', include('user_client.urls')),
     path('cadastro/user_funcionario',cadastro_funcionario.as_view() , name="funcionario_cadastro"),
-    path('cadastro/user_funcionario/views',views.login , name="funcionario_login"),
-    path('user_login/views', views.login),
+    path('cadastro/user_funcionario/views',login_funcionario , name="funcionario_login"),
+    path('user_login/views', views.login_user),
 ]
