@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/my_button.dart';
+import 'package:modernlogintute/pages/conteudos.dart';
+import 'package:modernlogintute/pages/login_page.dart';
+import 'package:modernlogintute/pages/notificacoes.dart';
+import 'package:modernlogintute/pages/agenda.dart';
+import 'package:modernlogintute/pages/comunidade.dart';
+import 'package:modernlogintute/pages/diario.dart';
+
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -31,7 +38,7 @@ class Home extends StatelessWidget {
                 color: Colors.blue,
               ),
               child: Text(
-                'Opções do Menu',
+                'Menu de Opções',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
@@ -41,13 +48,13 @@ class Home extends StatelessWidget {
             ListTile(
               title: const Text('Notificações'),
               onTap: () {
-                // Lógica ao selecionar a opção 1
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => const Notificacoes()));
               },
             ),
             ListTile(
               title: const Text('Sair'),
               onTap: () {
-                // Lógica ao selecionar a opção 2
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
               },
             ),
             // Adicione mais ListTiles conforme necessário para outras opções
@@ -85,7 +92,7 @@ class Home extends StatelessWidget {
       
                  MyButton(
                      onTap: () {
-                      // Ação quando o botão é pressionado
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => const Diario()));
                   
                       },
                        buttonText: 'Diário', // Texto dinâmico para o botão
@@ -95,7 +102,7 @@ class Home extends StatelessWidget {
       
                     MyButton(
                      onTap: () {
-                      // Ação quando o botão é pressionado
+                       Navigator.push(context, MaterialPageRoute(builder: (context) => const Agenda()));
                      
                       },
                        buttonText: 'Agenda', // Texto dinâmico para o botão
@@ -105,7 +112,7 @@ class Home extends StatelessWidget {
       
                     MyButton(
                      onTap: () {
-                      // Ação quando o botão é pressionado
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => const Comunidade()));
                        
                       },
                        buttonText: 'Comunidade', // Texto dinâmico para o botão
@@ -115,7 +122,7 @@ class Home extends StatelessWidget {
       
                     MyButton(
                      onTap: () {
-                      // Ação quando o botão é pressionado
+                       Navigator.push(context, MaterialPageRoute(builder: (context) => const Conteudos()));
                        
                       },
                        buttonText: 'Conteúdos', // Texto dinâmico para o botão
