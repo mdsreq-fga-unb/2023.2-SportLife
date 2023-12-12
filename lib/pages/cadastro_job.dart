@@ -7,7 +7,21 @@ import 'package:awesome_dialog/awesome_dialog.dart';
 class CadastroJob extends StatelessWidget {
   CadastroJob({Key? key}) : super(key: key);
 
-  final cpfController = TextEditingController();
+  final TextEditingController _cpfController = TextEditingController();
+  final TextEditingController _nomeCompletoController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _telefoneController = TextEditingController();
+  final TextEditingController _dataNascimentoController = TextEditingController();
+  final TextEditingController _senhaController = TextEditingController();
+  final TextEditingController _confirmSenhaController = TextEditingController();
+
+  final String cpf ="";
+  final String nomeCompleto="";
+  final String email="";
+  final String telefone="";
+  final String dataNascimento="";
+  final String senha="";
+  final String confirmSenha="";
  
   @override
   Widget build(BuildContext context) {
@@ -40,7 +54,7 @@ class CadastroJob extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _cpfController,
                       hintText: 'CPF',
                       obscureText: true,
                     ),
@@ -60,7 +74,7 @@ class CadastroJob extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _nomeCompletoController,
                       hintText: 'Nome',
                       obscureText: true,
                     ),
@@ -80,7 +94,7 @@ class CadastroJob extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _emailController,
                       hintText: 'Email',
                       obscureText: true,
                     ),
@@ -100,7 +114,7 @@ class CadastroJob extends StatelessWidget {
                    
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _dataNascimentoController,
                       hintText: 'xx/yy/zzzz',
                       obscureText: true,
                     ),
@@ -120,7 +134,7 @@ class CadastroJob extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _telefoneController,
                       hintText: 'Telefone',
                       obscureText: true,
                     ),
@@ -139,7 +153,7 @@ class CadastroJob extends StatelessWidget {
                    const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _senhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -160,7 +174,7 @@ class CadastroJob extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: cpfController,
+                      controller: _confirmSenhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -178,7 +192,17 @@ class CadastroJob extends StatelessWidget {
   child: CustomButton(
     text: 'Avançar',
     onPressed: () {
-      // Mostrar o diálogo de sucesso ao pressionar o botão
+      
+        final json = {
+          'cpf' : _cpfController,
+          'nome_completo' : _nomeCompletoController,
+          'email' : _emailController,
+          'telefone': _telefoneController,
+          'data_nascimento' : _dataNascimentoController,
+          'senha': _senhaController,
+          'confirm_senha': _confirmSenhaController,
+        };
+
       AwesomeDialog(
         context: context,
         dialogType: DialogType.success,

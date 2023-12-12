@@ -1,19 +1,34 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/custom_button.dart';
 import 'package:modernlogintute/pages/login_page.dart';
 import 'package:modernlogintute/components/my_textfield.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
+import 'package:uno/uno.dart';
 
 class CadastroUser extends StatelessWidget {
   CadastroUser({Key? key}) : super(key: key);
 
-  final telefoneController = TextEditingController();
-  final nomeResponsavelController = TextEditingController();
-  final nomePacienteController = TextEditingController();
-  final emailController = TextEditingController();
-  final dataNascimentoController = TextEditingController();
-  final senhaController = TextEditingController();
-  final confirmSenhaController = TextEditingController();
+  // para realizar requisicao
+  final uno = Uno();
+
+  final TextEditingController _telefoneController = TextEditingController();
+  final TextEditingController _nomeResponsavelController = TextEditingController();
+  final TextEditingController _nomePacienteController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _dataNascimentoController = TextEditingController();
+  final TextEditingController _senhaController = TextEditingController();
+  final TextEditingController _confirmSenhaController = TextEditingController();
+
+  final String telefone ="";
+  final String nomeResponsavel="";
+  final String nomePaciente="";
+  final String email="";
+  final String dataNascimento="";
+  final String senha="";
+  final String confirmSenha="";
+  
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +65,7 @@ class CadastroUser extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: telefoneController,
+                      controller: _telefoneController,
                       hintText: 'Telefone',
                       obscureText: false,
                     ),
@@ -70,7 +85,7 @@ class CadastroUser extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: nomeResponsavelController,
+                      controller: _nomeResponsavelController,
                       hintText: 'Nome',
                       obscureText: false,
                     ),
@@ -90,7 +105,7 @@ class CadastroUser extends StatelessWidget {
       
       
                     MyTextField(
-                      controller: emailController,
+                      controller: _emailController,
                       hintText: 'Email',
                       obscureText: false,
                     ),
@@ -110,7 +125,7 @@ class CadastroUser extends StatelessWidget {
                    
       
                     MyTextField(
-                      controller: nomePacienteController,
+                      controller: _nomePacienteController,
                       hintText: 'Nome',
                       obscureText: false,
                     ),
@@ -130,7 +145,7 @@ class CadastroUser extends StatelessWidget {
                    
       
                     MyTextField(
-                      controller: dataNascimentoController,
+                      controller: _dataNascimentoController,
                       hintText: 'xx/yy/zzzz',
                       obscureText: false,
                     ),
@@ -149,7 +164,7 @@ class CadastroUser extends StatelessWidget {
                    const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: senhaController,
+                      controller: _senhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -168,7 +183,7 @@ class CadastroUser extends StatelessWidget {
                     const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: confirmSenhaController,
+                      controller: _confirmSenhaController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -186,7 +201,26 @@ class CadastroUser extends StatelessWidget {
   child: CustomButton(
     text: 'Avançar',
     onPressed: () {
-      // Mostrar o diálogo de sucesso ao pressionar o botão
+
+        final String telefone = _telefoneController.text;
+        final String nomeResponsavel = _nomeResponsavelController.text;
+        final String nomePaciente= _nomePacienteController.text;
+        final String email= _emailController.text;
+        final String dataNascimento= _dataNascimentoController.text;
+        final String senha= _senhaController.text;
+        final String confirmSenha = _confirmSenhaController.text;
+
+        final json = {
+          'telefone' : telefone,
+          'nomeResponsavel' : nomeResponsavel,
+          'nomePaciente' : nomePaciente,
+          'email' : email,
+          'dataNascimento' : dataNascimento,
+          'senha' : senha,
+          'confirmSenha': confirmSenha,
+        };
+        
+     
       AwesomeDialog(
         context: context,
         dialogType: DialogType.success,

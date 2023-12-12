@@ -31,6 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  uno: 1.1.9
 
 
   # The following adds the Cupertino Icons font to your application.
