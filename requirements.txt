@@ -2,7 +2,6 @@ pip~=23.3.1
 tornado~=6.2
 Jinja2~=3.1.2
 pytz~=2023.3.post1
-Django~=5.0
 asgiref~=3.7.2
 sqlparse~=0.4.4
 colorama~=0.4.6
