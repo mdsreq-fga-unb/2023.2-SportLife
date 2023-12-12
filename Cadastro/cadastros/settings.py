@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 
 
@@ -22,12 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4$)7&ygj!%q*h_%-&ijr-t2&iba9-(%w1hmz@2*z&r!9wtyo_8'
+SECRET_KEY = os.environ.get('SECRET_KEY', default='django-insecure-4$)7&ygj!%q*h_%-&ijr-t2&iba9-(%w1hmz@2*z&r!9wtyo_8')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
+# RENDER_EXTERNAL_HOSTNAME = os.environ.get('https://sportlifr.onrender.com')
+# if RENDER_EXTERNAL_HOSTNAME: ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
 # Application definition
@@ -43,6 +46,7 @@ INSTALLED_APPS = [
     'user_client',
     'user_funcionario',
     'user_login',
+    'render.apps.RenderConfig'
     # 'user_client.models',
     # 'user_client.models.Cliente',
 ]
