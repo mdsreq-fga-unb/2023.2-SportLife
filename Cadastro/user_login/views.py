@@ -22,6 +22,7 @@ def login_user(request):
         return Response("usuário não encontrado", status=status.HTTP_404_NOT_FOUND)
     # token, created = Token.objects.get_or_create(user=user)
     serializer = cliente_Serializer(instance =user)
+    # authenticate(request, user)
     login(request, user)
     return Response({"user": serializer.data})
 

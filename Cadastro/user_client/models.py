@@ -8,7 +8,7 @@ class Cliente(AbstractBaseUser):
     email = models.EmailField(max_length=40, unique=True)
     dependente = models.CharField(max_length=40)
     data_nascimento = models.DateField(blank=False)
-    password = models.CharField( max_length=15, unique=True, name="senha")
+    password = models.CharField( max_length=15)
     USERNAME_FIELD = 'email'
     def __str__(self):
         return self

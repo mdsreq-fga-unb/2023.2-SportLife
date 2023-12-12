@@ -8,8 +8,10 @@ class funcionario(AbstractBaseUser):
     cpf = models.CharField(max_length=11)
     nome = models.CharField(max_length=40)
     email = models.EmailField(max_length=40, unique=True) 
+    # is_staff = models.BooleanField(("staff status"),
+    #     default=True,)
 
-    password = models.CharField(max_length=15, unique=True, name = "senha")
+    password = models.CharField(max_length=15, name = "senha")
 
     def __str__(self):
         return self

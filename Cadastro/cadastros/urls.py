@@ -25,4 +25,5 @@ urlpatterns = [
     path('cadastro/user_funcionario',cadastro_funcionario.as_view() , name="funcionario_cadastro"),
     path('cadastro/user_funcionario/views',login_funcionario , name="funcionario_login"),
     path('user_login/views', views.login_user),
+    
 ]
