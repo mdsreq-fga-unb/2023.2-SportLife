@@ -2,9 +2,8 @@ name: Django CI
 
 on:
   push:
-    branches: [ "cadastro" ]
+    
   pull_request:
-    branches: [ "cadastro" ]
 
 jobs:
   build:
