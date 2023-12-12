@@ -1,9 +1,9 @@
 import pytest
-from Cadastro.user_client.models import Cliente
+import models
 
 @pytest.mark.django_db
 def test_create_user():
-    user = Cliente.objects.create(
+    user = models.Cliente.objects.create(
         telefone="99999999999",
         username="Usuario",
         email="test@email.com",
