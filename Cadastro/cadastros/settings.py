@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'user_client',
     'user_funcionario',
     'user_login',
+    'user_client.models',
+    'user_client.models.Cliente',
 ]
 
 REST_FRAMEWORK = {
