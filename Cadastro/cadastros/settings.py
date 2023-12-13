@@ -14,6 +14,7 @@ from pathlib import Path
 
 
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,11 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
     'user_client',
     'user_funcionario',
     'user_login',
-    # 'user_client.models',
-    # 'user_client.models.Cliente',
+    
 ]
 
 REST_FRAMEWORK = {
@@ -58,7 +59,7 @@ REST_FRAMEWORK = {
     ]
 }
 
-
+AUTH_USER_MODELS = "user_funcionario.funcionario"
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -125,7 +126,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
@@ -146,7 +147,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = '587'
-EMAIL_USER_TLS = True
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'mds.sportlife2023@gmail.com'
-EMAIL_HOST_PASSWORD = 'mds-2023'
+EMAIL_HOST_PASSWORD = 'dwcf csqc kaqa avla'

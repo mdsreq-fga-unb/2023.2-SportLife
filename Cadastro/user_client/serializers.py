@@ -10,12 +10,12 @@ class cliente_Serializer(serializers.ModelSerializer):
     class Meta(object):
         fields=(
             "id",
-            "nome",
             "telefone",
+            "nomeResponsavel",
+            "nomePaciente",
             "email",
-            "dependente",
-            "data_nascimento",
-            "password", 
+            "dataNascimento",
+            "password"
         )
         model=models.Cliente
     password = serializers.CharField(

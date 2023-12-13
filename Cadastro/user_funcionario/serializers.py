@@ -7,11 +7,12 @@ class cadastro_funcionario_Serializer(serializers.ModelSerializer):
     class Meta:
         fields=(
             "id",
-            "telefone",
-            "nome",
+            "cpf",
+            "nome_completo",
             "email",
-        
-            "password"
+            "telefone",
+            "data_nascimento",
+            "password",
         )
     
         model=models.funcionario
