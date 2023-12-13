@@ -12,14 +12,14 @@ class CadastroJob extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _telefoneController = TextEditingController();
   final TextEditingController _dataNascimentoController = TextEditingController();
-  final TextEditingController _senhaController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
 
   final String cpf ="";
   final String nomeCompleto="";
   final String email="";
   final String telefone="";
   final String dataNascimento="";
-  final String senha="";
+  final String password="";
  
   @override
   Widget build(BuildContext context) {
@@ -151,7 +151,7 @@ class CadastroJob extends StatelessWidget {
                    const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: _senhaController,
+                      controller: _passwordController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -176,7 +176,7 @@ class CadastroJob extends StatelessWidget {
           'email' : _emailController,
           'telefone': _telefoneController,
           'data_nascimento' : _dataNascimentoController,
-          'senha': _senhaController,
+          'password': _passwordController,
         };
 
       AwesomeDialog(
