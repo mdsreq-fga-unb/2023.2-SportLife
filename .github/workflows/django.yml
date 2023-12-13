@@ -26,5 +26,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd /home/runner/work/2023.2-SportLife/2023.2-SportLife/Cadastro
+        cd 2023.2-SportLife/Cadastro
         python manage.py test
