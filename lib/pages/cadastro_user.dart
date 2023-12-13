@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/custom_button.dart';
 import 'package:modernlogintute/pages/login_page.dart';
@@ -19,7 +18,6 @@ class CadastroUser extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _dataNascimentoController = TextEditingController();
   final TextEditingController _senhaController = TextEditingController();
-  final TextEditingController _confirmSenhaController = TextEditingController();
 
   final String telefone ="";
   final String nomeResponsavel="";
@@ -27,7 +25,6 @@ class CadastroUser extends StatelessWidget {
   final String email="";
   final String dataNascimento="";
   final String senha="";
-  final String confirmSenha="";
   
 
   @override
@@ -170,25 +167,6 @@ class CadastroUser extends StatelessWidget {
                     ),
       
                     const SizedBox(height: 20),
-      
-                    const Text(
-                      'Confirmação de senha:',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-      
-                    const SizedBox(height: 10),
-      
-                    MyTextField(
-                      controller: _confirmSenhaController,
-                      hintText: 'Senha',
-                      obscureText: true,
-                    ),
-      
-                    const SizedBox(height: 10),
 
                   ],
               ),
@@ -208,7 +186,6 @@ class CadastroUser extends StatelessWidget {
         final String email= _emailController.text;
         final String dataNascimento= _dataNascimentoController.text;
         final String senha= _senhaController.text;
-        final String confirmSenha = _confirmSenhaController.text;
 
         final json = {
           'telefone' : telefone,
@@ -217,7 +194,6 @@ class CadastroUser extends StatelessWidget {
           'email' : email,
           'dataNascimento' : dataNascimento,
           'senha' : senha,
-          'confirmSenha': confirmSenha,
         };
         
      
