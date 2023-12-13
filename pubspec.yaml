@@ -67,6 +67,7 @@ flutter:
     - lib/images/nutri.jpg
     - lib\images\crianca.jpeg
     - lib\images\chat.jpeg
+
     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
