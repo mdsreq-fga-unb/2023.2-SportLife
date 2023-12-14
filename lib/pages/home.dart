@@ -125,7 +125,7 @@ class Home extends StatelessWidget {
       
                     MyButton(
                      onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => const Comunidade()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) =>  Comunidade()));
                        
                       },
                        buttonText: 'Comunidade', 

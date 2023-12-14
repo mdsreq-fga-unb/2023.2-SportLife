@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:modernlogintute/components/custom_button.dart';
 import 'package:modernlogintute/pages/login_page.dart';
@@ -17,14 +16,14 @@ class CadastroUser extends StatelessWidget {
   final TextEditingController _nomePacienteController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _dataNascimentoController = TextEditingController();
-  final TextEditingController _senhaController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
 
   final String telefone ="";
   final String nomeResponsavel="";
   final String nomePaciente="";
   final String email="";
   final String dataNascimento="";
-  final String senha="";
+  final String password="";
   
 
   @override
@@ -161,7 +160,7 @@ class CadastroUser extends StatelessWidget {
                    const SizedBox(height: 10),
       
                     MyTextField(
-                      controller: _senhaController,
+                      controller: _passwordController,
                       hintText: 'Senha',
                       obscureText: true,
                     ),
@@ -185,7 +184,7 @@ class CadastroUser extends StatelessWidget {
         final String nomePaciente= _nomePacienteController.text;
         final String email= _emailController.text;
         final String dataNascimento= _dataNascimentoController.text;
-        final String senha= _senhaController.text;
+        final String password= _passwordController.text;
 
         final json = {
           'telefone' : telefone,
@@ -193,7 +192,7 @@ class CadastroUser extends StatelessWidget {
           'nomePaciente' : nomePaciente,
           'email' : email,
           'dataNascimento' : dataNascimento,
-          'senha' : senha,
+          'password' : password,
         };
         
      
