@@ -1,5 +1,5 @@
 # Install dependecies
-pip install -r deps.txt
+pip install -r requirements.txt
 
 # Run migration
 python3 manage.py migrate 
