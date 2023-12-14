@@ -28,7 +28,6 @@ filelock==3.12.2
 fonttools==4.46.0
 ghp-import==2.1.0
 gunicorn==21.2.0
-gyp==0.1
 html5lib==1.1
 httplib2==0.20.2
 idna==3.4
