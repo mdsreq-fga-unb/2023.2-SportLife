@@ -11,7 +11,6 @@ click==8.1.7
 click-man==0.4.1
 clikit==0.6.2
 colorama==0.4.6
-command-not-found==0.3
 contourpy==1.2.0
 crashtest==0.3.1
 cryptography==3.4.8
