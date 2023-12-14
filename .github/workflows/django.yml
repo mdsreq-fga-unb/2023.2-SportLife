@@ -1,9 +1,7 @@
 name: Django CI
 
 on:
-  push:
-    
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -26,5 +24,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd 2023.2-SportLife/Cadastro
+        cd Cadastro
         python manage.py test
