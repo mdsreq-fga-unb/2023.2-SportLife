@@ -19,7 +19,6 @@ dbus-python==1.2.18
 decorator==5.1.1
 distlib==0.3.6
 distro==1.7.0
-distro-info===1.1build1
 dj-database-url==2.1.0
 Django==3.2.12
 django-cors-headers==4.3.1
