@@ -141,7 +141,7 @@ Pedidos da cliente
 - Aplicamos a DoR em cada uma das histórias;
 - Estabelecemos o backlog da sprint e selecionamos tarefas para cada história;
 
-## Reunião 07 - 13/11
+### Reunião 07 - 13/11
 
 - Colocamos as pastas de Model View e Controller no git;
 - Redefinição das tarefas para cada um dos integrantes;
@@ -150,7 +150,7 @@ Pedidos da cliente
     - Nomenclatura em inglês;
     - Nome da variável/função/classe bem definida.
 
-## Reunião 08 - Com a cliente - 23/11
+### Reunião 08 - Com a cliente - 23/11
 
 Apresentação dos resultados da primeira sprint para a cliente:
 
@@ -162,7 +162,9 @@ Apresentação dos resultados da primeira sprint para a cliente:
     - O usuário de log in dos clientes será o E-mail;
     - Os critérios de aceitação para criar uma senha serão simples (apenas letras e/ou números e até 8 dígitos).
 
-## Reunião 09 - 29/11
+## Unidade 04
+
+###S Reunião 09 - 29/11
 
 Objetivos:
 
