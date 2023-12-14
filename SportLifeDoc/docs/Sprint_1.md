@@ -40,11 +40,11 @@ Na Sprint 1, ocorreu a confecção dos critérios de avaliação das histórias 
 
 ## Template da Sprint Planning
 
-![](imagens/Template-Sprint-Planning.jpeg)
+![](imagens/Template-Sprint-Planning-1.jpeg)
 
 ## Template da Retrospectiva
 
-![](imagens/Template-Sprint-Retrospective.jpeg)
+![](imagens/Template-Sprint-Retrospective-1.jpeg)
 
 ## Template do Review da Sprint
 

@@ -163,3 +163,13 @@ Apresentação dos resultados da primeira sprint para a cliente:
     - Aplicar o formato do telefone (com ou sem dd);
     - O usuário de log in dos clientes será o E-mail;
     - Os critérios de aceitação para criar uma senha serão simples (apenas letras e/ou números e até 8 dígitos).
+
+## Unidade 04
+
+### Reunião 09 - 29/11
+
+Objetivos:
+
+- Definição das funções de cada um nas histórias do mvp1 e do mvp2;
+- Definição dos tipos, níveis e técnicas de teste;
+- Foi adicionada a tabela de testes no GitPages.
