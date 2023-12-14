@@ -24,6 +24,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        find Cadastro
+        lst
         cd Cadastro
         python manage.py test
