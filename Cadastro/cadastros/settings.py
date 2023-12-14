@@ -52,14 +52,10 @@ INSTALLED_APPS = [
     'user_client',
     'user_funcionario',
     'user_login',
-<<<<<<< HEAD
-    
-=======
     'render.apps.RenderConfig',
     'corsheaders'
     # 'user_client.models',
     # 'user_client.models.Cliente',
->>>>>>> 8e06cc9ac8ceb6d16ca4489d79e5f9543385ace2
 ]
 
 REST_FRAMEWORK = {
