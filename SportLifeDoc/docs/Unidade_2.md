@@ -64,36 +64,34 @@
 
 2.1. Marcar Eventos
 
-- `US6:` Eu, como funcionário, quero ver e marcar consultas ou reuniões futuras para me preparar de acordo;
-- `US8:` Eu, como funcionário, quero poder desmarcar e/ou alterar dados de consultas para maximizar eficiência da clínica;
+- `US6:` Eu, como funcionário, quero ver eventos futuras para me preparar de acordo;
+- `US7:` Eu, como funcionário, marcar eventos futuras para me preparar de acordo;
+- `US9:` Eu, como funcionário, quero poder desmarcar eventos para maximizar eficiência da clínica;
+- `US10:` EU, como funcionário, quero poder alterar dados de eventos para maximizar a eficiência da clínica;
 
 2.2. Consultar Marcações
 
-- `US7:` Eu, como usuário, quero poder me informar sobre datas de consultas marcadas para evitar cancelamentos e inconveniências;
+- `US8:` Eu, como usuário, quero poder me informar sobre datas de consultas marcadas para evitar cancelamentos e inconveniências;
 
 2.3. Documentar Hábitos Alimentares
 
-- `US9:` Eu, como funcionário, quero dar feedback de forma consistente sobre os hábitos alimentares de pacientes individuais;
-- `US10:` Eu, como usuário, quero registrar meus hábitos alimentares para ajudar em decisões sobre meu tratamento;
-- `US11:` Eu, como funcionário, quero me informar sobre os hábitos alimentares diários de pacientes afim de personalizar e ajustar os tratamentos;
+- `US11:` Eu, como funcionário, quero dar feedback de forma consistente sobre os hábitos alimentares de pacientes individuais;
+- `US12:` Eu, como usuário, quero registrar meus hábitos alimentares para ajudar em decisões sobre meu tratamento;
+- `US13:` Eu, como funcionário, quero me informar sobre os hábitos alimentares diários de pacientes afim de personalizar e ajustar os tratamentos;
 
 2.4. Disponibilizar Conteúdos
 
-- `US12:` Eu, como funcionário, quero distribuir conteúdos educativos de forma rápida para múltiplos pacientes, afim de evitar mandar os conteúdos individualmente;
+- `US14:` Eu, como funcionário, quero distribuir conteúdos educativos de forma rápida para múltiplos pacientes, afim de evitar mandar os conteúdos individualmente;
 
 ### *Tema 3: Comunicação*
 
-3.1. Contatar Comunidade
+3.1. Comunicar com Nutricionista
 
-- `US15:` Eu, como usuário, quero poder interagir com outros usuários em situações similares para compartilhar experiências e me conectar;
+- `US15:` Eu, como funcionário, quero me comunicar de forma privada com pacientes afim de manter a confidencialidade médica;
 
-3.2. Comunicar com Nutricionista
+3.2. Notificar Usuário
 
-- `US13:` Eu, como funcionário, quero me comunicar de forma privada com pacientes afim de manter a confidencialidade médica;
-
-3.3. Notificar Usuário
-
-- `US14:` Eu, como funcionário, quero ser capaz de notificar pacientes com informações e dicas ao longo do dia afim de reforçar e facilitar o tratamento;
+- `US16:` Eu, como funcionário, quero ser capaz de notificar pacientes com informações ao longo do dia afim de reforçar e facilitar o tratamento;
 
 ## Críterio de Priorização das Histórias de Usuário
 
@@ -209,7 +207,7 @@ Para as US que serão desenvolvidas no MVP 2, serão todas que não estão (ou n
 
 ## Definição de Done
 
-- O código passou nos testes unitários, garantindo que as funcionalidades individuais funcionem corretamente.
+- O código passou nos testes unitários, caso tenha, garantindo que as funcionalidades individuais funcionem corretamente.
 - O código passou nos testes de integração, garantindo que todas as partes do sistema funcionem juntas.
 - Os critérios de aceitação acordados com o PO foram atendidos.
 - A funcionalidade foi testada em vários cenários para garantir que esteja livre de defeitos.
@@ -244,12 +242,10 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
   - *Feedback do sistema:* mensagens de feedback, confirmações, erros ou mensagens de sucesso;
 
 - **Surpresa mínima:** consistência, de forma com que as operações e ações se comportam de maneira consistente e desing intuitivo com os elementos e funcionalidades dispostos de forma lógica e coerente;
-- **Recuperabilidade:** caso o usuário precise voltar para uma página que estava preenchida, ele não irá perder os dados informados, pois eles estarão lá recuperados;
 
 - **Orientação do usuário:** uso de mensagens para orientar o usuário caso ocorra algum erro, alguma ação tenha sido realizada com sucesso ou caso esteja faltando completar algum campo obrigatório;
 
 - **Diversidade de usuários:**
-  - Uso de ferramentas de verificação de contraste, para garantir o destaque do texto e dos elementos da interface no plano de fundo, para os usuários que possuem daltonismo;
   - Legibilidade de texto, de forma que o tamanho e a fonte do texto sejam legíveis e que haja um bom contraste entre o texto e o fundo, para os usuários com baixa visão;
   - Navegação Simples, sendo necessário no máximo 5 cliques para realizar alguma ação, ajudando assim usuários que utilizem de leitores de tela;
 
@@ -263,6 +259,32 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 
 - **Preenchimento de formulário:** os funcionários poderão preencher campos para marcar consultas na aba “Agenda”, escolhendo o título, horário e descrição, para adicionar títulos aos conteúdos na aba “Conteúdos”, para adicionar descrição nos seus posts na aba “Diário Alimentar” (caso clientes) ou responder os posts (caso funcionários), adicionar títulos e descrições nas informações oferecidas na aba “Comunidade Nutri Duni Tê”, para mandar alguma mensagem na aba “Chat Direto” ou para adicionar título e descrição (caso funcionários) nas notificações da aba de notificações;
 
+## Esboço do Aplicativo
+
+### Paint
+
+![](imagens/Esboço_LogIn.png)
+
+![](imagens/Esboço_tela_inicial_ADM.png)
+
+![](imagens/Esboço_tela_inicial_USER.png)
+
+### Figma
+
+![](imagens/esb_1.jpeg)
+
+![](imagens/esb_2.jpeg)
+
+![](imagens/esb_3.jpeg)
+
+![](imagens/esb_4.jpeg)
+
+![](imagens/esb_5.jpeg)
+
+![](imagens/esb_6.jpeg)
+
+![](imagens/esb_7.jpeg)
+
 ## Histórico de Revisão
 
 |Data|Versão|Descrição|Autor|
@@ -272,6 +294,7 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 |**23/10/2023**|**1.2**|**Rascunho da Arquitetura**|**Heloísa**|
 |**25/10/2023**|**1.3**|**Revisão dos Requisitos Funcionais e dos Critérios de Priorização**|**Caio Pacheco**|
 |**26/10/2023**|**1.4**|**Revisão dos Requisitos Não-funcionais e formatação**|**Caio Pacheco**|
+|**13/12/2023**|**1.5**|**Revisão dos Princípios de UI**|**Vinícius Rufino**|
 
 ## Lições aprendidas
 

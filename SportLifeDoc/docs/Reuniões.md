@@ -149,3 +149,23 @@ Pedidos da cliente
     - Utilização do PascalCase para função e chamada de classe e para arquivos utilizaremos em inglês sem regra de escrita e separado por underline;
     - Nomenclatura em inglês;
     - Nome da variável/função/classe bem definida.
+
+## Reunião 08 - Com a cliente - 23/11
+
+Apresentação dos resultados da primeira sprint para a cliente:
+
+- A cliente aprovou o que foi desenvolvido pela equipe, pedindo apenas algumas pequenas mudanças, que já foram implementadas no código, ficando da maneira desejada por ela;
+- As mudanças pedidas foram:
+    - Foto do plano de fundo em HD e harmonizada com a logo;
+    - Trocar o CPF pelo Telefone do usuário;
+    - Aplicar o formato do telefone (com ou sem dd);
+    - O usuário de log in dos clientes será o E-mail;
+    - Os critérios de aceitação para criar uma senha serão simples (apenas letras e/ou números e até 8 dígitos).
+
+## Reunião 09 - 29/11
+
+Objetivos:
+
+- Definição das funções de cada um nas histórias do mvp1 e do mvp2;
+- Definição dos tipos, níveis e técnicas de teste;
+- Foi adicionada a tabela de testes no GitPages.

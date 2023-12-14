@@ -31,7 +31,7 @@
 
 ### 1.4 **Tecnologias<a name="_page4_x72.00_y134.60"></a> a Serem Utilizadas**
 
-Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo, Trello para gerenciamento e gestão do projeto, o discord para reunião entre os participantes do grupo e o zoom para reunião com a cliente, para back-end usaremos python e Django Rest Framework, e para testes github action e dart.
+Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo, Kanban no GitHub para gerenciamento e gestão do projeto, o discord para reunião entre os participantes do grupo e o zoom para reunião com a cliente, para back-end usaremos python e Django Rest Framework, e para testes github action e dart.
 
 ## <a name="_page4_x72.00_y203.19"></a>**2 VISÃO GERAL DO PROJETO**
 
@@ -55,12 +55,10 @@ Serão utilizadas as tecnologias: Flutter, para o desenvolvimento do aplicativo,
 
 |***Sprint***|***Produto (Entrega)***|***Data Início***|***Data Fim***|
 | - | - | - | - |
-|*Sprint 1*|*Definição do Produto*|*05/09/23*|*21/09/23*|
-|*Sprint 2*|*MVP e Planejamento do Projeto*|*26/09/23*|*12/10/23*|
-|*Sprint 3*|*US 3,4,1 e 2*|*07/11/23*|*21/11/23*|
-|*Sprint 4*|*US 6,13,7 e 5*|*22/11/23*|*06/12/23*|
-|*Sprint 5*|*A definir*|*A definir*|*A definir*|
-|*Sprint 5*|*A definir*|*A definir*|*A definir*|
+|*Sprint 0*|*Definição do Produto, MVP e Planejamento do Projeto*|*05/09/23*|*12/10/23*|
+|*Sprint 1*|*US 3,4,1 e 2*|*07/11/23*|*21/11/23*|
+|*Sprint 2*|*US 6,13,7 e 5*|*22/11/23*|*13/12/23*|
+
 
 ### 2.3 **Matriz<a name="_page5_x72.00_y94.10"></a> de Comunicação**
 
@@ -168,6 +166,8 @@ nas próximas unidades.*
 |**08/10/2023**|**1.2**|**Revisão de Visão do Produto**|**Vinícius**|
 |**24/10/2023**|**1.3**|**Refatoração Geral**|**Gabriel Bertolazi**|
 |**26/10/2023**|**1.4**|**Correções Finais**|**Caio Pacheco**|
+|**10/12/2023**|**1.5**|**Mudança nas tecnologias**|**Vinícius Fernandes**|
+|**13/12/2023**|**1.6**|**Correção do Planejamento**|**Vinícius Fernandes**|
 
 ## **REFERÊNCIAS BIBLIOGRÁFICAS**
 
