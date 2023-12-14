@@ -12,9 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
-import django
-
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,13 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY", "12345")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG ='RENDER' not in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-if RENDER_EXTERNAL_HOSTNAME: 
-    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
 # Application definition
@@ -50,10 +44,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'user_client',
     'user_funcionario',
-    'user_client.apps.UserClientConfig',
-    'user_funcionario.apps.UserFuncionarioConfig',
-    'user_login.apps.UserLoginConfig', 
-    'corsheaders'
     # 'user_client.models',
     # 'user_client.models.Cliente',
 ]
@@ -109,11 +99,10 @@ CORS_ALLOWED_ORIGIN = True
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        # Feel free to alter this value to suit your needs.
-        default='postgres://postgressnutridinite_user:FeTFosbyYPULgFObgEOI875O2SkqIVkh@dpg-clt0d15cm5oc739djgog-a.oregon-postgres.render.com/postgressnutridinite',
-        conn_max_age=600
-    )
+        "default":{
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR/"db.sqlite3",
+        }
 }
 
 # Password validation
