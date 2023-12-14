@@ -26,4 +26,6 @@ jobs:
       run: |
         ls
         cd Cadastro
+        pwd
+        ls
         python manage.py test
