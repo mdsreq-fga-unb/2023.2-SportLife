@@ -173,3 +173,11 @@ Objetivos:
 - Definição das funções de cada um nas histórias do mvp1 e do mvp2;
 - Definição dos tipos, níveis e técnicas de teste;
 - Foi adicionada a tabela de testes no GitPages.
+
+### Reunião 10 - Com a Cliente - 13/12
+
+- Apresentação do App rodando;
+- Aplicação dos critérios de aceitação;
+- DoD;
+- Histórias aprovadas pela cliente: 6, 7, 9, 10, 8, 14;
+- Pendências: US 11, 12, 13, 15, 16.

@@ -207,7 +207,7 @@ Para as US que serão desenvolvidas no MVP 2, serão todas que não estão (ou n
 
 ## Definição de Done
 
-- O código passou nos testes unitários, garantindo que as funcionalidades individuais funcionem corretamente.
+- O código passou nos testes unitários, caso tenha, garantindo que as funcionalidades individuais funcionem corretamente.
 - O código passou nos testes de integração, garantindo que todas as partes do sistema funcionem juntas.
 - Os critérios de aceitação acordados com o PO foram atendidos.
 - A funcionalidade foi testada em vários cenários para garantir que esteja livre de defeitos.
@@ -242,12 +242,10 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
   - *Feedback do sistema:* mensagens de feedback, confirmações, erros ou mensagens de sucesso;
 
 - **Surpresa mínima:** consistência, de forma com que as operações e ações se comportam de maneira consistente e desing intuitivo com os elementos e funcionalidades dispostos de forma lógica e coerente;
-- **Recuperabilidade:** caso o usuário precise voltar para uma página que estava preenchida, ele não irá perder os dados informados, pois eles estarão lá recuperados;
 
 - **Orientação do usuário:** uso de mensagens para orientar o usuário caso ocorra algum erro, alguma ação tenha sido realizada com sucesso ou caso esteja faltando completar algum campo obrigatório;
 
 - **Diversidade de usuários:**
-  - Uso de ferramentas de verificação de contraste, para garantir o destaque do texto e dos elementos da interface no plano de fundo, para os usuários que possuem daltonismo;
   - Legibilidade de texto, de forma que o tamanho e a fonte do texto sejam legíveis e que haja um bom contraste entre o texto e o fundo, para os usuários com baixa visão;
   - Navegação Simples, sendo necessário no máximo 5 cliques para realizar alguma ação, ajudando assim usuários que utilizem de leitores de tela;
 
@@ -296,6 +294,7 @@ Já o estilo arquitetural escolhido foi o  ``MVC`` (Model-View-Controller), que 
 |**23/10/2023**|**1.2**|**Rascunho da Arquitetura**|**Heloísa**|
 |**25/10/2023**|**1.3**|**Revisão dos Requisitos Funcionais e dos Critérios de Priorização**|**Caio Pacheco**|
 |**26/10/2023**|**1.4**|**Revisão dos Requisitos Não-funcionais e formatação**|**Caio Pacheco**|
+|**13/12/2023**|**1.5**|**Revisão dos Princípios de UI**|**Vinícius Rufino**|
 
 ## Lições aprendidas
 
